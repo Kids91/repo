@@ -25,13 +25,13 @@ Version: 1.12.24-30~13.7+rootful
 Architecture: iphoneos-arm
 Maintainer: Kids91
 Installed-Size: 1000
-Pre-Depends: me.jjolano.fmwk.hookkit (>=1.0.16~13.7), me.jjolano.hkmodule.substitute (>=1.0.11~13.7)
-Depends: firmware (>=12.0), firmware (<15.0), zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, org.coolstar.libhooker (>=0.0.1.1), com.rpetrich.rocketbootstrap (1.1.0~libhooker2), preferenceloader, com.saurik.substrate.safemode, com.ex.substitute | com.ex.libsubstitute | science.xnu.substitute, mobilesubstrate
+Pre-Depends: me.jjolano.fmwk.hookkit (1.0.16~13.7), me.jjolano.hkmodule.substitute (1.0.11~13.7)
+Depends: firmware (>=12.0) && firmware (<15.0), zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, org.coolstar.libhooker (>=0.0.1.1), com.rpetrich.rocketbootstrap (1.1.0~libhooker2), preferenceloader, com.saurik.substrate.safemode, com.ex.substitute | com.ex.libsubstitute | science.xnu.substitute, mobilesubstrate
 Filename: ./debs/com.kids.changerutils_1.12.24-30~13.7+rootful_iphoneos-arm.deb
-Size: 307626
-MD5sum: a2f9c96488dfb28ce70a4676f2e731db
-SHA1: ddabc4e28cff0c60dd158d1ac866465ca1b7a2b1
-SHA256: 7057e97247ba0c543d57de4587f96cc3b05026bd7d53e0f6dbebad1d918298f5
+Size: 307546
+MD5sum: 4f06df94592bb3b35365b69b6e002a82
+SHA1: 66a6d71f3b6652af19ebd4e1a12a011966d511ab
+SHA256: e0ba3dd2cf94ee9f259bf49110e4d99f6681c7ac7b5fe4e06082d0274be226b6
 Section: Utilities
 Description: An application & preferences configs!
 Tag: role::developer
@@ -44,13 +44,13 @@ Version: 1.12.24-30~14.5+rootful
 Architecture: iphoneos-arm
 Maintainer: Kids91
 Installed-Size: 984
-Pre-Depends: me.jjolano.fmwk.hookkit (>=1.0.16~14.5), me.jjolano.hkmodule.substitute (>=1.0.11~14.5)
-Depends: firmware (>=12.0), zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, org.coolstar.libhooker (>=0.0.1.1), com.rpetrich.rocketbootstrap (1.1.0~libhooker2), preferenceloader, com.saurik.substrate.safemode, com.ex.substitute | com.ex.libsubstitute | science.xnu.substitute, mobilesubstrate
+Pre-Depends: me.jjolano.fmwk.hookkit (1.0.16~14.5), me.jjolano.hkmodule.substitute (1.0.11~14.5)
+Depends: firmware (>=14.0), zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, org.coolstar.libhooker (>=0.0.1.1), com.rpetrich.rocketbootstrap (1.1.0~libhooker2), preferenceloader, com.saurik.substrate.safemode, com.ex.substitute | com.ex.libsubstitute | science.xnu.substitute, mobilesubstrate
 Filename: ./debs/com.kids.changerutils_1.12.24-30~14.5+rootful_iphoneos-arm.deb
-Size: 307722
-MD5sum: 7cba23228eebdd7744e6614cf2787bf5
-SHA1: d158466005f5921582b7986d3acc44838dce17f5
-SHA256: c124e0fbcca98e6583934611f2d27800d4b0b2d9ae9ecba6bbb8d6c11a0959df
+Size: 308134
+MD5sum: b63f626a34a57c969d03076031f176e8
+SHA1: acf3157d83f0b0c44cc6b032c8edc21e19470b72
+SHA256: 886cc540bdad78d004c56d4b2d86addbc0d3231ca01bc207bf6a3eb7ae23323e
 Section: Utilities
 Description: An application & preferences configs!
 Tag: role::developer
@@ -134,12 +134,12 @@ Version: 1.0.16~13.7+rootful
 Architecture: iphoneos-arm
 Maintainer: jjolano
 Installed-Size: 92
-Depends: firmware (>= 12.0), firmware (< 15.0), me.jjolano.fmwk.modulous (1.0.9~13.7), me.jjolano.fmwk.rootbridge (1.0.2~13.7)
+Depends: firmware (>=12.0) && firmware (<15.0), me.jjolano.fmwk.modulous (1.0.9~13.7), me.jjolano.fmwk.rootbridge (1.0.2~13.7)
 Filename: ./debs/me.jjolano.fmwk.hookkit_1.0.16~13.7+rootful_iphoneos-arm.deb
 Size: 8874
-MD5sum: 7e2aa83d70fda5fd04835ac58e95df4b
-SHA1: 2ca90a823c859f683c5dce51b567d42d5d92c902
-SHA256: 71a7e74c131404626e3e1a576271d06646171512a6eaf3f48615703f3467133c
+MD5sum: 6777c2c2772a91a26aef411b25ffe191
+SHA1: 7cc72bb24395b33cd3837a1a4789a0d2fff48d1e
+SHA256: ca9c0452f24492b56197d1df213dbd395483a9acad5c880785a6d668c819d8aa
 Section: Development
 Description: An iOS developer framework for unified hooking methods.\nMod by Cường Trần (Kids)
 Tag: role::developer
@@ -151,12 +151,12 @@ Version: 1.0.16~14.5+rootful
 Architecture: iphoneos-arm
 Maintainer: jjolano
 Installed-Size: 92
-Depends: firmware (>= 12.0), me.jjolano.fmwk.modulous (1.0.9~14.5), me.jjolano.fmwk.rootbridge (1.0.2~14.5)
+Depends: firmware (>=14.0), me.jjolano.fmwk.modulous (1.0.9~14.5), me.jjolano.fmwk.rootbridge (1.0.2~14.5)
 Filename: ./debs/me.jjolano.fmwk.hookkit_1.0.16~14.5+rootful_iphoneos-arm.deb
-Size: 8922
-MD5sum: 853298f4fbdaab4150ac71cb2b43091c
-SHA1: 4912cdd8b14c4cf4486829c24379ee961b40397e
-SHA256: 25deb009cb94028e4a9c286294fc919d6b34e41ff2144f87faf3078ab59c9a5b
+Size: 8908
+MD5sum: 2c710d9be24c33f3fabf2ffd841aa330
+SHA1: 2329d630a1c11f390b67b9a4f32697f531cf3d58
+SHA256: 56f27421593bd7ca2e1580ec406d470e0801a1bb2c25a2cff43d8d170989a55a
 Section: Development
 Description: An iOS developer framework for unified hooking methods.\nMod by Cường Trần (Kids)
 Tag: role::developer
@@ -168,12 +168,12 @@ Version: 1.0.9~13.7+rootful
 Architecture: iphoneos-arm
 Maintainer: jjolano
 Installed-Size: 88
-Depends: firmware (>= 12.0), firmware (< 15.0)
+Depends: firmware (>=12.0) && firmware (<15.0)
 Filename: ./debs/me.jjolano.fmwk.modulous_1.0.9~13.7+rootful_iphoneos-arm.deb
-Size: 4854
-MD5sum: 7aa98f87cea9dc6760a6cef0b7eb8886
-SHA1: 0f0cb0840dd7f5cb7fedf38bbd5cdea33d80d3a6
-SHA256: a108e6ab7c733558923587266d26d1e3782bf020ea7b7f89c663d6a23abe6ab1
+Size: 4842
+MD5sum: f223ab947f56e12beff422eafdfb470f
+SHA1: ab91246118701b6ec0da0262aeff386a873df6db
+SHA256: 11c1756c51363e1500088455a90804733c6517fdcc109668fc8d440676dd94f6
 Section: Development
 Description: An iOS developer framework for modular software.\nMod by Cường Trần (Kids)
 Tag: role::developer
@@ -185,12 +185,12 @@ Version: 1.0.9~14.5+rootful
 Architecture: iphoneos-arm
 Maintainer: jjolano
 Installed-Size: 88
-Depends: firmware (>= 12.0)
+Depends: firmware (>=14.0)
 Filename: ./debs/me.jjolano.fmwk.modulous_1.0.9~14.5+rootful_iphoneos-arm.deb
-Size: 4860
-MD5sum: 6f588ab0037a13d56d943713719b92ab
-SHA1: ec9dfea7d6c4bb3c7d9d7d263baf9dc5b850546d
-SHA256: faf6bb91333be6b1d35f9fd4e0d3023e20b11ba65d6afde98455b6c361f285b5
+Size: 4876
+MD5sum: ed0de141b40136ece9fec2df2bf099d8
+SHA1: 89d25ce14ac389db17cf13abf0f095d8d77e15e1
+SHA256: d2a2367d7426fb58f411795c55260e7bd27c363dd7be5915bf384dd8b12a9f9f
 Section: Development
 Description: An iOS developer framework for modular software.\nMod by Cường Trần (Kids)
 Tag: role::developer
@@ -202,12 +202,12 @@ Version: 1.0.2~13.7+rootful
 Architecture: iphoneos-arm
 Maintainer: jjolano
 Installed-Size: 88
-Depends: firmware (>= 8.0), firmware (< 15.0)
+Depends: firmware (>=12.0) && firmware (<15.0)
 Filename: ./debs/me.jjolano.fmwk.rootbridge_1.0.2~13.7+rootful_iphoneos-arm.deb
 Size: 3162
-MD5sum: 98d1893b89239c162966a8c5b1f61ecc
-SHA1: 7a1dc17d22db1ad43c03f003cb9e82dc3820d004
-SHA256: 46b019540f0dc1937d89711d102e021b252fc1d567925bcccc7af9c57f87a51e
+MD5sum: 7c753817bdfcafad42f0e9cfac6d4d70
+SHA1: ace8045153098acf9592eaecc90b72db2227067f
+SHA256: 2dae6e9932f9757058f787d7ae8a8fc47cc8cc0da531cbee600c48a76d7d4dbe
 Section: Development
 Description: An iOS developer framework for rootless tweak development.\nMod by Cường Trần (Kids)
 Tag: role::developer
@@ -219,12 +219,12 @@ Version: 1.0.2~14.5+rootful
 Architecture: iphoneos-arm
 Maintainer: jjolano
 Installed-Size: 88
-Depends: firmware (>= 12.0)
+Depends: firmware (>=14.0)
 Filename: ./debs/me.jjolano.fmwk.rootbridge_1.0.2~14.5+rootful_iphoneos-arm.deb
 Size: 3152
-MD5sum: d58c26fc01c7aaf98ae18a959f5f3b88
-SHA1: bbeb18c50b82ff2ac518d6b1a87d273f6a02595d
-SHA256: 5298662d6a432508938ccfacde0ed28438ab55d8e5962ad732430778182078e7
+MD5sum: 12144ad5525d6cb79fa948c4b87e7439
+SHA1: b7f05137bfb93628c8a2d494aa3a6fb511953e4e
+SHA256: 2d6e1475dccca6598aedd503e8d87411d5f624db0c4fefabc15afe265494f680
 Section: Development
 Description: An iOS developer framework for rootless tweak development.\nMod by Cường Trần (Kids)
 Tag: role::developer
@@ -237,13 +237,13 @@ Architecture: iphoneos-arm
 Maintainer: jjolano
 Installed-Size: 88
 Pre-Depends: me.jjolano.fmwk.hookkit
-Depends: com.ex.substitute | com.ex.libsubstitute | science.xnu.substitute, mobilesubstrate, firmware (>= 12.0), firmware (< 15.0)
+Depends: com.ex.substitute | com.ex.libsubstitute | science.xnu.substitute, firmware (>=12.0) && firmware (<15.0), mobilesubstrate
 Provides: me.jjolano.hkmodule.substrate
 Filename: ./debs/me.jjolano.hkmodule.substitute_1.0.11~13.7+rootful_iphoneos-arm.deb
-Size: 4036
-MD5sum: c9ba247559370ebf61c66ffde0b2131d
-SHA1: 90783cc24e517edc79fa9be3448c16fb9a4e2912
-SHA256: dcd83cd881ff752bf020ae3641cbc0aabf3c20030700708628f24bc28892b309
+Size: 4038
+MD5sum: 4405ea630fdc103080682eac694aa9a7
+SHA1: 038f56aedf6be5946cf104412e6b6c3fb0428c93
+SHA256: cb5bc2949947604178c648e0181958435921d8e7e37c1cac23228b212384eb80
 Section: HookKit (Modules)
 Description: This module provides the Substitute API for HookKit Framework.\n Mod by Cường Trần (Kids)
 Author: jjolano
@@ -255,13 +255,13 @@ Architecture: iphoneos-arm
 Maintainer: jjolano
 Installed-Size: 88
 Pre-Depends: me.jjolano.fmwk.hookkit
-Depends: com.ex.substitute | com.ex.libsubstitute | science.xnu.substitute, mobilesubstrate, firmware (>= 12.0)
+Depends: com.ex.substitute | com.ex.libsubstitute | science.xnu.substitute, firmware (>=14.0), mobilesubstrate
 Provides: me.jjolano.hkmodule.substrate
 Filename: ./debs/me.jjolano.hkmodule.substitute_1.0.11~14.5+rootful_iphoneos-arm.deb
-Size: 4032
-MD5sum: 23c35ed9f23c16b78d7d8d5f4b0700f8
-SHA1: 1fd33f1295832833ef65082d7724f9435c25e7c0
-SHA256: d3ce54c8aeda977c5390f949598987359f1175418f367216f33b1888fdbf125a
+Size: 4034
+MD5sum: a2afe7d8ef7333a12b620ed2e32bbfc6
+SHA1: 7c878e172f6640502ee496168b354fa8a866dd9f
+SHA256: d6ee9b84ddb25a349dfd62a77dc9676930d80af3fc6e73c6263b59b0bddb4cda
 Section: HookKit (Modules)
 Description: This module provides the Substitute API for HookKit Framework.\n Mod by Cường Trần (Kids)
 Author: jjolano
