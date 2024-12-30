@@ -5,5 +5,5 @@ Version: 1.0
 Codename: kidsdev
 Architectures: iphoneos-arm iphoneos-arm64
 Components: main
-Description: KidsDev Cydia Repository
+Description: KidsDev Repository
 Icon: file://CydiaIcon.png
