@@ -25,14 +25,14 @@ Version: 1.12.24-30~13.7
 Architecture: iphoneos-arm
 Maintainer: Kids91
 Installed-Size: 1000
-Pre-Depends: me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substitute
+Pre-Depends: me.jjolano.hkmodule.substitute (<<1.0.12)
 Depends: firmware (<<15.0), zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, org.coolstar.libhooker (>=0.0.1.1), com.rpetrich.rocketbootstrap (1.1.0~libhooker2), preferenceloader, com.saurik.substrate.safemode, com.ex.substitute | com.ex.libsubstitute | science.xnu.substitute, mobilesubstrate
 Conflicts: com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
 Filename: ./debs/com.kids.changerutils_1.12.24-30~13.7_iphoneos-arm.deb
-Size: 307922
-MD5sum: 9e870adc316ff92c295d8bd587b4d695
-SHA1: 638ba84b168a24af12533661084ff3a8cb61afb1
-SHA256: 73c6d452335910ca3054b41ca812ba0439d946e7cfee0008e6809791a805eb3e
+Size: 307962
+MD5sum: 86ae5286b7deaac8a1e342efc0c29b47
+SHA1: dbe38dd7cd509f9d1292ecc6c1b237e1839a3784
+SHA256: 9bcfdc07e4c8e627853440bbd86e40eea4096cdd91515b91f5591746674bd53d
 Section: Utilities
 Description: An application & preferences configs!
 Tag: role::developer
@@ -241,10 +241,10 @@ Pre-Depends: me.jjolano.fmwk.hookkit (<<1.0.17)
 Depends: com.ex.substitute | com.ex.libsubstitute | science.xnu.substitute, firmware (<<15.0), mobilesubstrate
 Provides: me.jjolano.hkmodule.substrate
 Filename: ./debs/me.jjolano.hkmodule.substitute_1.0.11~13.7_iphoneos-arm.deb
-Size: 4024
-MD5sum: 29c38521c22eae62c70de3535ebefa2d
-SHA1: 46ea9cfe776bd02df5c687c4b64d289b42dd7255
-SHA256: 30fea7437888a6161bee47d475ec1080f89c0ca0759375416ca42fe2050e0dff
+Size: 4028
+MD5sum: a42e20ab13f200eefef602b3560ac5a0
+SHA1: f146f1d4100f6eda49cb0ff28a6e05c903cb66e5
+SHA256: 9b09d651920c094956c647ef74dc893093f6d085c53a62d10b866d0133584478
 Section: HookKit (Modules)
 Description: This module provides the Substitute API for HookKit Framework.\r\n Mod by Cường Trần (Kids)
 Author: jjolano
