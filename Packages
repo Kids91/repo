@@ -27,7 +27,7 @@ Maintainer: Kids91
 Installed-Size: 1000
 Pre-Depends: me.jjolano.fmwk.hookkit (1.0.16~13.7), me.jjolano.hkmodule.substitute (1.0.11~13.7)
 Depends: firmware (>=12.0) && firmware (<15.0), zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, org.coolstar.libhooker (>=0.0.1.1), com.rpetrich.rocketbootstrap (1.1.0~libhooker2), preferenceloader, com.saurik.substrate.safemode, com.ex.substitute | com.ex.libsubstitute | science.xnu.substitute, mobilesubstrate
-Filename: ./debs/com.kids.changerutils_1.12.24-30~13.7+rootful_iphoneos-arm.deb
+Filename: ./debs/com.kids.changerutils_1.12.24-30~13.7.deb
 Size: 307546
 MD5sum: 4f06df94592bb3b35365b69b6e002a82
 SHA1: 66a6d71f3b6652af19ebd4e1a12a011966d511ab
@@ -46,7 +46,7 @@ Maintainer: Kids91
 Installed-Size: 984
 Pre-Depends: me.jjolano.fmwk.hookkit (1.0.16~14.5), me.jjolano.hkmodule.substitute (1.0.11~14.5)
 Depends: firmware (>=14.0), zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, org.coolstar.libhooker (>=0.0.1.1), com.rpetrich.rocketbootstrap (1.1.0~libhooker2), preferenceloader, com.saurik.substrate.safemode, com.ex.substitute | com.ex.libsubstitute | science.xnu.substitute, mobilesubstrate
-Filename: ./debs/com.kids.changerutils_1.12.24-30~14.5+rootful_iphoneos-arm.deb
+Filename: ./debs/com.kids.changerutils_1.12.24-30~14.5.deb
 Size: 308134
 MD5sum: b63f626a34a57c969d03076031f176e8
 SHA1: acf3157d83f0b0c44cc6b032c8edc21e19470b72
@@ -135,7 +135,7 @@ Architecture: iphoneos-arm
 Maintainer: jjolano
 Installed-Size: 92
 Depends: firmware (>=12.0) && firmware (<15.0), me.jjolano.fmwk.modulous (1.0.9~13.7), me.jjolano.fmwk.rootbridge (1.0.2~13.7)
-Filename: ./debs/me.jjolano.fmwk.hookkit_1.0.16~13.7+rootful_iphoneos-arm.deb
+Filename: ./debs/me.jjolano.fmwk.hookkit_1.0.16~13.7.deb
 Size: 8874
 MD5sum: 6777c2c2772a91a26aef411b25ffe191
 SHA1: 7cc72bb24395b33cd3837a1a4789a0d2fff48d1e
@@ -152,7 +152,7 @@ Architecture: iphoneos-arm
 Maintainer: jjolano
 Installed-Size: 92
 Depends: firmware (>=14.0), me.jjolano.fmwk.modulous (1.0.9~14.5), me.jjolano.fmwk.rootbridge (1.0.2~14.5)
-Filename: ./debs/me.jjolano.fmwk.hookkit_1.0.16~14.5+rootful_iphoneos-arm.deb
+Filename: ./debs/me.jjolano.fmwk.hookkit_1.0.16~14.5.deb
 Size: 8908
 MD5sum: 2c710d9be24c33f3fabf2ffd841aa330
 SHA1: 2329d630a1c11f390b67b9a4f32697f531cf3d58
@@ -169,7 +169,7 @@ Architecture: iphoneos-arm
 Maintainer: jjolano
 Installed-Size: 88
 Depends: firmware (>=12.0) && firmware (<15.0)
-Filename: ./debs/me.jjolano.fmwk.modulous_1.0.9~13.7+rootful_iphoneos-arm.deb
+Filename: ./debs/me.jjolano.fmwk.modulous_1.0.9~13.7.deb
 Size: 4842
 MD5sum: f223ab947f56e12beff422eafdfb470f
 SHA1: ab91246118701b6ec0da0262aeff386a873df6db
@@ -186,7 +186,7 @@ Architecture: iphoneos-arm
 Maintainer: jjolano
 Installed-Size: 88
 Depends: firmware (>=14.0)
-Filename: ./debs/me.jjolano.fmwk.modulous_1.0.9~14.5+rootful_iphoneos-arm.deb
+Filename: ./debs/me.jjolano.fmwk.modulous_1.0.9~14.5.deb
 Size: 4876
 MD5sum: ed0de141b40136ece9fec2df2bf099d8
 SHA1: 89d25ce14ac389db17cf13abf0f095d8d77e15e1
@@ -203,7 +203,7 @@ Architecture: iphoneos-arm
 Maintainer: jjolano
 Installed-Size: 88
 Depends: firmware (>=12.0) && firmware (<15.0)
-Filename: ./debs/me.jjolano.fmwk.rootbridge_1.0.2~13.7+rootful_iphoneos-arm.deb
+Filename: ./debs/me.jjolano.fmwk.rootbridge_1.0.2~13.7.deb
 Size: 3162
 MD5sum: 7c753817bdfcafad42f0e9cfac6d4d70
 SHA1: ace8045153098acf9592eaecc90b72db2227067f
@@ -220,7 +220,7 @@ Architecture: iphoneos-arm
 Maintainer: jjolano
 Installed-Size: 88
 Depends: firmware (>=14.0)
-Filename: ./debs/me.jjolano.fmwk.rootbridge_1.0.2~14.5+rootful_iphoneos-arm.deb
+Filename: ./debs/me.jjolano.fmwk.rootbridge_1.0.2~14.5.deb
 Size: 3152
 MD5sum: 12144ad5525d6cb79fa948c4b87e7439
 SHA1: b7f05137bfb93628c8a2d494aa3a6fb511953e4e
@@ -239,7 +239,7 @@ Installed-Size: 88
 Pre-Depends: me.jjolano.fmwk.hookkit
 Depends: com.ex.substitute | com.ex.libsubstitute | science.xnu.substitute, firmware (>=12.0) && firmware (<15.0), mobilesubstrate
 Provides: me.jjolano.hkmodule.substrate
-Filename: ./debs/me.jjolano.hkmodule.substitute_1.0.11~13.7+rootful_iphoneos-arm.deb
+Filename: ./debs/me.jjolano.hkmodule.substitute_1.0.11~13.7.deb
 Size: 4038
 MD5sum: 4405ea630fdc103080682eac694aa9a7
 SHA1: 038f56aedf6be5946cf104412e6b6c3fb0428c93
@@ -257,7 +257,7 @@ Installed-Size: 88
 Pre-Depends: me.jjolano.fmwk.hookkit
 Depends: com.ex.substitute | com.ex.libsubstitute | science.xnu.substitute, firmware (>=14.0), mobilesubstrate
 Provides: me.jjolano.hkmodule.substrate
-Filename: ./debs/me.jjolano.hkmodule.substitute_1.0.11~14.5+rootful_iphoneos-arm.deb
+Filename: ./debs/me.jjolano.hkmodule.substitute_1.0.11~14.5.deb
 Size: 4034
 MD5sum: a2afe7d8ef7333a12b620ed2e32bbfc6
 SHA1: 7c878e172f6640502ee496168b354fa8a866dd9f
