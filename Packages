@@ -1,3 +1,96 @@
+Package: com.ex.substitute
+Version: 2.3.1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner
+Installed-Size: 27456
+Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
+Depends: firmware (>= 8.0), cy+cpu.arm64, com.saurik.substrate.safemode (>=0.9.6005), uikittools (>=1.1.13-4), darwintools
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitute, mobilesubstrate, ws.hbang.stopcrashingpls (<<1.0.2)
+Breaks: com.saurik.substrate.safemode (<<0.9.6004)
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
+Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
+Filename: ./debs/com.ex.substitute_2.3.1.deb
+Size: 7442088
+MD5sum: dce90a30e8b20198762d81c5872ad1b3
+SHA1: 0f8c9ef6db614eb7f82caf7ff2b06cabf0233232
+SHA256: b37592166962f70a5b1bafc15848f229b4689bb60a9bbc61431b8be361193fd6
+Section: System
+Priority: optional
+Description: Substrate substitute for code substitution
+Author: comex <comexk+da@gmail.com>
+Name: Substitute
+
+Package: com.muirey03.cr4shed
+Version: 4.3.0
+Architecture: iphoneos-arm
+Maintainer: Muirey03
+Installed-Size: 1384
+Depends: mobilesubstrate, com.muirey03.libmryipc, cy+cpu.arm64 | cy+cpu.arm64e, firmware (>= 9.0), ws.hbang.common (>= 1.11)
+Filename: ./debs/com.muirey03.cr4shed_4.3.0_iphoneos-arm.deb
+Size: 149078
+MD5sum: 293df1ba4eea1c3787ff31c0114725a7
+SHA1: 30aa8b231bb41dca965c57218918d307babe375d
+SHA256: 7a58e56ff3b6e13a3ab604f35cf1d04300e28f95b8f5cee1ef0bbbee80dba049
+Section: Tweaks
+Description: A modern crash reporter for iOS
+Author: Muirey03
+Name: Cr4shed
+
+Package: com.muirey03.libmryipc
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: Muirey03
+Installed-Size: 448
+Depends: mobilesubstrate
+Conflicts: ws.hbang.stopcrashingpls (=1.0)
+Filename: ./debs/com.muirey03.libmryipc_2.0.1_iphoneos-arm.deb
+Size: 28100
+MD5sum: d1a236bbabf96effd018161df06def8d
+SHA1: 9433e3c416a25e30431ead2fdf298bb0ea6df872
+SHA256: 76fa3736f20e5939704e705be043c94c201649ca3b6db6dcf24a88c6cce9840a
+Section: System
+Description: Easy-to-use, RocketBootstrap-less iOS IPC
+Tag: role::developer
+Author: Muirey03
+Name: libMRYIPC
+
+Package: com.rpetrich.rocketbootstrap
+Version: 1.1.0~libhooker2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: org.coolstar.libhooker
+Filename: ./debs/rocketbootstrap_1.1.0_libhooker-shim.deb
+Size: 10444
+MD5sum: baf051456b187d84a08c45129141a9ff
+SHA1: 4327f33c86f776a5005d95a5159234234d3f9ed0
+SHA256: 6c193c277b455339bea58ea5dd16675bed032f1c3abe8cdb569a80b925e1b3ac
+Section: Tweaks
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Tag: purpose::extension, role::developer
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Dev: rpetrich
+Name: RocketBootstrap
+
+Package: com.saurik.substrate.safemode
+Version: 0.9.6005
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 144
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Conflicts: safe-mode-fixer-ios7
+Replaces: safe-mode-fixer-ios7
+Filename: ./debs/com.saurik.substrate.safemode_0.9.6005.deb
+Size: 22736
+MD5sum: 73e56c9f8209fc56c8852bfcfd5b23d7
+SHA1: 8bb7866945dac32ad68648ebf38ca343fa715b7d
+SHA256: de3f3c5e0bfde32d61e14daaca7a7899a73215f94753a77fca1aa4203b018c87
+Section: Tweaks
+Priority: optional
+Description: safe mode safety extension (safe)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
+Name: Substrate Safe Mode
+
 Package: me.jjolano.fmwk.hookkit
 Version: 1.0.16~13.7+rootful
 Architecture: iphoneos-arm
@@ -66,4 +159,18 @@ Section: HookKit (Modules)
 Description: This module provides the Substitute API for HookKit Framework.\n Mod by Cường Trần (Kids)
 Author: jjolano
 Name: HookKit Module (Substitute)
+
+Package: org.coolstar.libhooker
+Version: 0.0.1.1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Filename: ./debs/org.coolstar.libhooker-shim_0.0.1.1.deb
+Size: 5436
+MD5sum: 4b6653470b9ef4d90f92b52be12d7def
+SHA1: 9413bb289ca3783f2a9eb079014fc86b24e8e4f6
+SHA256: b8494aebfa09c62593b76f3685644360d9d30f3c7f61e7d74ae9054575a7de61
+Section: Development
+Description: shim for those who can't use the real libhooker (e.g. iOS 10 or arm32)
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: libhooker-shim
 
