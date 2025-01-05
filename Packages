@@ -41,18 +41,18 @@ Depiction: https://t.me/Life6868
 Name: KidsChanger
 
 Package: com.kids.changerutils
-Version: 1.25.01~14.5
+Version: 1.25.01-1~14.5
 Architecture: iphoneos-arm
 Maintainer: Kids91
-Installed-Size: 1768
+Installed-Size: 1772
 Pre-Depends: me.jjolano.fmwk.hookkit (>> 1.0.16), me.jjolano.hkmodule.substitute (>> 1.0.11)
 Depends: firmware (>= 15.0), zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, org.coolstar.libhooker (>= 0.0.1.1), com.rpetrich.rocketbootstrap (>= 1.1.0~libhooker2), preferenceloader, com.saurik.substrate.safemode, com.ex.substitute | com.ex.libsubstitute | science.xnu.substitute, mobilesubstrate
 Conflicts: com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
-Filename: ./debs/com.kids.changerutils_1.25.01~14.5_iphoneos-arm.deb
-Size: 432580
-MD5sum: 22fdbf985a8ade944514c02ee3966bef
-SHA1: 77fb6f1a4f2369ecb2bc2a1f9ba14314dae3d8c0
-SHA256: 22412303e2ef800108c6cf0755b821d2d10c17712a4c27cac91a578f26d11a64
+Filename: ./debs/com.kids.changerutils_1.25.01-1~14.5_iphoneos-arm.deb
+Size: 433162
+MD5sum: b392c41c23ee397bd2c83cb98f244eda
+SHA1: af132f9d4baf9924e34658865ad20670d2bc238b
+SHA256: 1463711094549aa9652824d303c26ceb68937f6d21b067ff911258fe63f632f0
 Section: Utilities
 Description: An application & preferences configs!
 Tag: role::developer
