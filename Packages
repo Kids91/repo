@@ -41,19 +41,19 @@ Depiction: https://t.me/Life6868
 Name: KidsChanger
 
 Package: com.kids.utilities
-Version: 1.25.01-12~14.5
+Version: 1.25.01-13
 Architecture: iphoneos-arm
 Maintainer: Kids91
 Installed-Size: 1556
-Pre-Depends: me.jjolano.fmwk.hookkit (>> 1.0.16), me.jjolano.hkmodule.substitute (>> 1.0.11)
-Depends: firmware (>= 15.0), zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, com.saurik.substrate.safemode, com.ex.substitute, org.coolstar.libhooker (>= 0.0.1.1), com.rpetrich.rocketbootstrap (>= 1.1.0~libhooker2), preferenceloader
+Pre-Depends: me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substitute
+Depends: firmware (>= 14.0), zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, com.saurik.substrate.safemode, com.ex.substitute, org.coolstar.libhooker (>= 0.0.1.1), com.rpetrich.rocketbootstrap (>= 1.1.0~libhooker2), preferenceloader, ws.hbang.common
 Conflicts: com.kids.changerutils, com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
 Replaces: com.kids.changerutils, com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
-Filename: ./debs/com.kids.utilities_1.25.01-12~14.5_iphoneos-arm.deb
-Size: 403458
-MD5sum: eae9fc5af76cacd603ff8925a0bd692c
-SHA1: 03cb4a62458adc1283b402b0db7e1b2754777ae1
-SHA256: 47275199fe521f840b898f6d2f700da473595af07d8aaaddfd44043df96e3c22
+Filename: ./debs/com.kids.utilities_1.25.01-13_iphoneos-arm.deb
+Size: 403422
+MD5sum: 16ca353bd34b7d951195389a7b905491
+SHA1: 33bf02b3bd78074a688caae75a55222848ad54da
+SHA256: 53720b12b51310cd8133f0dd0910f0f003a904390a48c88d6f01369c6a19e923
 Section: Utilities
 Description: An application & preferences configs!
 Tag: role::developer
