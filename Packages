@@ -50,10 +50,10 @@ Depends: firmware (>= 15.0), zip, unzip, gzip, rsync, socat, sqlite3, openssh, o
 Conflicts: com.kids.changerutils, com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
 Replaces: com.kids.changerutils, com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
 Filename: ./debs/com.kids.utilities_1.25.01-12~14.5_iphoneos-arm.deb
-Size: 402488
-MD5sum: ebe09a7ac5836edf6a01eae60092950b
-SHA1: 111e0e00690a34836dd00f6097fca6a4891e1532
-SHA256: 840aedf7e0dff22dae223b7a61eb7f95b99c8b718c4c9709d58ca2148b04c0d6
+Size: 403458
+MD5sum: eae9fc5af76cacd603ff8925a0bd692c
+SHA1: 03cb4a62458adc1283b402b0db7e1b2754777ae1
+SHA256: 47275199fe521f840b898f6d2f700da473595af07d8aaaddfd44043df96e3c22
 Section: Utilities
 Description: An application & preferences configs!
 Tag: role::developer
