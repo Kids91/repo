@@ -40,25 +40,26 @@ Author: Kids91 <https://t.me/Life6868>
 Depiction: https://t.me/Life6868
 Name: KidsChanger
 
-Package: com.kids.changerutils
-Version: 1.25.01-1~14.5
+Package: com.kids.utilities
+Version: 1.25.01-12~14.5
 Architecture: iphoneos-arm
 Maintainer: Kids91
-Installed-Size: 1772
+Installed-Size: 1556
 Pre-Depends: me.jjolano.fmwk.hookkit (>> 1.0.16), me.jjolano.hkmodule.substitute (>> 1.0.11)
-Depends: firmware (>= 15.0), zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, org.coolstar.libhooker (>= 0.0.1.1), com.rpetrich.rocketbootstrap (>= 1.1.0~libhooker2), preferenceloader, com.saurik.substrate.safemode, com.ex.substitute | com.ex.libsubstitute | science.xnu.substitute, mobilesubstrate
-Conflicts: com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
-Filename: ./debs/com.kids.changerutils_1.25.01-1~14.5_iphoneos-arm.deb
-Size: 433162
-MD5sum: b392c41c23ee397bd2c83cb98f244eda
-SHA1: af132f9d4baf9924e34658865ad20670d2bc238b
-SHA256: 1463711094549aa9652824d303c26ceb68937f6d21b067ff911258fe63f632f0
+Depends: firmware (>= 15.0), zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, com.saurik.substrate.safemode, com.ex.substitute, org.coolstar.libhooker (>= 0.0.1.1), com.rpetrich.rocketbootstrap (>= 1.1.0~libhooker2), preferenceloader
+Conflicts: com.kids.changerutils, com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
+Replaces: com.kids.changerutils, com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
+Filename: ./debs/com.kids.utilities_1.25.01-12~14.5_iphoneos-arm.deb
+Size: 402488
+MD5sum: ebe09a7ac5836edf6a01eae60092950b
+SHA1: 111e0e00690a34836dd00f6097fca6a4891e1532
+SHA256: 840aedf7e0dff22dae223b7a61eb7f95b99c8b718c4c9709d58ca2148b04c0d6
 Section: Utilities
 Description: An application & preferences configs!
 Tag: role::developer
 Author: Kids91 <https://t.me/Life6868>
 Depiction: https://t.me/Life6868
-Name: KidsChanger
+Name: Kids Utilities
 
 Package: com.muirey03.cr4shed
 Version: 4.3.0
