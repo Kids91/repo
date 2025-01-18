@@ -62,7 +62,7 @@ Depiction: https://t.me/Life6868
 Name: Kids Utilities
 
 Package: com.kids.utilities
-Version: 1.25.01-18
+Version: 1.25.01-19
 Architecture: iphoneos-arm
 Maintainer: Kids91
 Installed-Size: 1560
@@ -70,11 +70,11 @@ Pre-Depends: com.saurik.substrate.safemode (>= 0.9.6005), com.ex.substitute (>= 
 Depends: firmware (>= 14.0), zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, org.coolstar.libhooker (>= 0.0.1.1), com.rpetrich.rocketbootstrap (>= 1.1.0~libhooker2), mterminal (>= 1.5-2), preferenceloader, ws.hbang.common
 Conflicts: com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
 Replaces: com.kids.changerutils, com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
-Filename: ./debs/com.kids.utilities_1.25.01-18_iphoneos-arm.deb
-Size: 405744
-MD5sum: 48c8e7779b3b096ed2c591e6579116f8
-SHA1: c24e685a90481c01c160df719736de2f8b8b5258
-SHA256: c0de1e5058a83004b0b43ce771d97c39e1b75b585231c5a4481992bae108309c
+Filename: ./debs/com.kids.utilities_1.25.01-19_iphoneos-arm.deb
+Size: 405256
+MD5sum: dcfa88b5a4a00e4925902de7ff0069df
+SHA1: b96b8669f1a77aa2d915eaae99cbc096824a1e1e
+SHA256: ba73114d5b518fafcb55730bcda9a29d274f3308bc30abe4aac7319871511baa
 Section: Utilities
 Description: An application & preferences configs!
 Tag: role::developer
