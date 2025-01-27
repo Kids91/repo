@@ -1,3 +1,19 @@
+Package: cm90.crossoveripc
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: @CrazyMind90
+Installed-Size: 128
+Depends: mobilesubstrate
+Filename: ./debs/cm90.crossoveripc_1.3_iphoneos-arm64.deb
+Size: 7240
+MD5sum: f22e219df5210db667704c4c879e4905
+SHA1: dbf231b5bbc034e4d84edb5ce2d0b311f8fde257
+SHA256: 8234373bf0aee63b47169cb246d51e96f83b78adb57cf9a429870f755357a164
+Section: Tweaks
+Description: A cross-process communication tool for sending and receiving messages on iOS 15 & 16 for rootless JBs
+Author: @CrazyMind90
+Name: CrossOverIPC
+
 Package: com.ex.substitute
 Version: 2.3.1
 Architecture: iphoneos-arm
