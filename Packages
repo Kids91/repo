@@ -88,14 +88,14 @@ Architecture: iphoneos-arm64
 Maintainer: Kids91
 Installed-Size: 1504
 Pre-Depends: com.saurik.substrate.safemode (>= 0.9.6005) | com.opa334.libsandy, com.ex.substitute (>= 2.3.1) | ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substitute | me.jjolano.hkmodule.ellekit
-Depends: firmware (>= 14.0), zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, org.coolstar.libhooker (>= 0.0.1.1), com.rpetrich.rocketbootstrap (>= 1.1.0~libhooker2) | cm90.crossoveripc, mterminal (>= 1.5-2) | ws.hbang.newterm3, preferenceloader, ws.hbang.common
+Depends: firmware (>= 14.0), zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, org.coolstar.libhooker (>= 0.0.1.1) | com.opa334.libsandy, com.rpetrich.rocketbootstrap (>= 1.1.0~libhooker2) | cm90.crossoveripc, mterminal (>= 1.5-2) | ws.hbang.newterm3, preferenceloader, ws.hbang.common
 Conflicts: com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
 Replaces: com.kids.changerutils, com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
 Filename: ./debs/com.kids.utilities_1.25.01-27_iphoneos-arm64.deb
-Size: 396486
-MD5sum: a1ac2d610976a8daee5731f3adb239aa
-SHA1: 797cb187a7e47b48bacc6b6b581e2b825dce2509
-SHA256: 8c64b5fa36c26cbe27da3b70f217f128a9fccbe50dcefb5409b5a847498ef260
+Size: 396770
+MD5sum: b22f2eba5279f1aad4a95f9492ec1f8a
+SHA1: bc0159462975bbef9f7afa63519de6edf0b8a58d
+SHA256: 4d03efa4a217d6f0181dbb143156c7d16c47527bf879374c7cc260c2f2a40b2b
 Section: Utilities
 Description: An application & preferences configs!
 Tag: role::developer
