@@ -82,6 +82,27 @@ Author: Kids91 <https://t.me/Life6868>
 Depiction: https://t.me/Life6868
 Name: Kids Utilities
 
+Package: com.kids.utilities
+Version: 1.25.01-27
+Architecture: iphoneos-arm64
+Maintainer: Kids91
+Installed-Size: 1504
+Pre-Depends: com.saurik.substrate.safemode (>= 0.9.6005) | com.opa334.libsandy, com.ex.substitute (>= 2.3.1) | ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substitute | me.jjolano.hkmodule.ellekit
+Depends: firmware (>= 14.0), zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, org.coolstar.libhooker (>= 0.0.1.1), com.rpetrich.rocketbootstrap (>= 1.1.0~libhooker2) | cm90.crossoveripc, mterminal (>= 1.5-2) | ws.hbang.newterm3, preferenceloader, ws.hbang.common
+Conflicts: com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
+Replaces: com.kids.changerutils, com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
+Filename: ./debs/com.kids.utilities_1.25.01-27_iphoneos-arm64.deb
+Size: 396486
+MD5sum: a1ac2d610976a8daee5731f3adb239aa
+SHA1: 797cb187a7e47b48bacc6b6b581e2b825dce2509
+SHA256: 8c64b5fa36c26cbe27da3b70f217f128a9fccbe50dcefb5409b5a847498ef260
+Section: Utilities
+Description: An application & preferences configs!
+Tag: role::developer
+Author: Kids91 <https://t.me/Life6868>
+Depiction: https://t.me/Life6868
+Name: Kids Utilities
+
 Package: com.muirey03.cr4shed
 Version: 4.3.0
 Architecture: iphoneos-arm
@@ -133,6 +154,27 @@ Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
 Dev: rpetrich
 Name: RocketBootstrap
 
+Package: com.rpetrich.rocketbootstrap
+Version: 1.1.0~rootless
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Installed-Size: 552
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.rpetrich.rocketbootstrap_1.1.0~rootless_iphoneos-arm64.deb
+Size: 40168
+MD5sum: 08fa9fed8c61426b5b9ae5d77f28ac77
+SHA1: 976fc8155bac6b7d05556a1485011926be77432a
+SHA256: 3af03342cdd3c25a4db9b1f53eaf626a8e3c5c5078168dd4126c3954353e0ed3
+Section: Tweaks
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Depiction: https://repo.cypwn.xyz/depiction/1854
+Dev: rpetrich
+Name: RocketBootstrap
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1854
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.saurik.substrate.safemode
 Version: 0.9.6005
 Architecture: iphoneos-arm
@@ -152,6 +194,24 @@ Description: safe mode safety extension (safe)
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
 Name: Substrate Safe Mode
+
+Package: me.alexia.rocketbootstrapfix
+Version: 0.1.2
+Architecture: iphoneos-arm64
+Maintainer: Luna <luna@alexia.lol>
+Installed-Size: 4
+Depends: bsdiff, com.rpetrich.rocketbootstrap (= 1.0.10~beta1), coreutils, ldid (>= 2.1.5-procursus7)
+Filename: ./debs/me.alexia.rocketbootstrapfix_0.1.2_iphoneos-arm64.deb
+Size: 1940
+MD5sum: 1234d72613e499e4d93e31e8a1090b7d
+SHA1: 0f8701bf596559919e6e5ef05a374344f265af45
+SHA256: 7761f080cfba4142c2c70ea8fc78b8509f1430421795da832cbb29f73e3cccf2
+Section: System
+Description: Fix RocketBootstrap on iOS 15+
+Author: Luna <luna@alexia.lol>
+Depiction: https://repo.alexia.lol/depictions/me.alexia.rocketbootstrapfix
+Name: RocketBootstrapFix
+Sileodepiction: https://repo.alexia.lol/sileo-depictions/me.alexia.rocketbootstrapfix.json
 
 Package: me.jjolano.fmwk.hookkit
 Version: 1.0.16~13.7
