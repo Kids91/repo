@@ -213,17 +213,17 @@ Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1854
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.rpetrich.rocketbootstrap
-Version: 1.1.1
+Version: 1.1.1~rootless
 Architecture: iphoneos-arm64
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 256
 Pre-Depends: com.saurik.substrate.safemode (>= 0.9.6005) | com.opa334.libsandy, com.ex.substitute| ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substitute | me.jjolano.hkmodule.ellekit
 Depends: firmware (>= 14.0)
-Filename: ./debs/com.rpetrich.rocketbootstrap_1.1.1_iphoneos-arm64.deb
-Size: 17876
-MD5sum: 21c5bdbab4cee49e119c6a7b6a2bcf0a
-SHA1: 9d9897a2fe1444df4508295388da284e8bd02dd6
-SHA256: 8b4b5daaaad51440024a2254a36a1b4026ca2f6c7008227c48b74742282b13c2
+Filename: ./debs/com.rpetrich.rocketbootstrap_1.1.1~rootless_iphoneos-arm64.deb
+Size: 17888
+MD5sum: d01cda49e3f994b26531b4fd8f2f21e6
+SHA1: f62e0169268d371d8f787376d2bee9aca2a36722
+SHA256: 51d2aaaebdb46fa980c366fcad10eee1be442fe1c6bc3b291ea01ffa3190a1bb
 Section: Tweaks
 Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
 Description: Support library allowing tweaks to communicate with sandboxed processes, support Rootless
