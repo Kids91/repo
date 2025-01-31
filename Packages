@@ -425,10 +425,10 @@ Pre-Depends: me.jjolano.fmwk.hookkit
 Depends: ellekit
 Provides: me.jjolano.hkmodule.substrate
 Filename: ./debs/me.jjolano.hkmodule.ellekit_1.0.7_iphoneos-arm64.deb
-Size: 3982
-MD5sum: d715789e5dad8d8fa8224fdb8f13ca00
-SHA1: df9a94487d3dcd38705c58d7c93fc0e38e8e4b66
-SHA256: 90f008cd62eac4870935a96c1e4db82e1ae39d846c0b73a6506d1a256493afb8
+Size: 3978
+MD5sum: 6754947bf9d28d9a5619bf454d37c5ed
+SHA1: 976748cc5cb0223ccb013d9621603ef975e24722
+SHA256: 3c96044baa416ec54cc7ab9ec8d8b965d76f8726cdde0ebfc5c131fa8b14b16f
 Section: HookKit (Modules)
 Description: This module provides the ElleKit API for HookKit Framework.
 Author: jjolano
