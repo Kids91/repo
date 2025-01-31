@@ -1,14 +1,14 @@
 Package: cm90.crossoveripc
-Version: 1.3
+Version: 1.3.1~rootless
 Architecture: iphoneos-arm64
 Maintainer: @CrazyMind90
 Installed-Size: 128
 Depends: mobilesubstrate
-Filename: ./debs/cm90.crossoveripc_1.3_iphoneos-arm64.deb
-Size: 7240
-MD5sum: f22e219df5210db667704c4c879e4905
-SHA1: dbf231b5bbc034e4d84edb5ce2d0b311f8fde257
-SHA256: 8234373bf0aee63b47169cb246d51e96f83b78adb57cf9a429870f755357a164
+Filename: ./debs/cm90.crossoveripc_1.3.1~rootless_iphoneos-arm64.deb
+Size: 7252
+MD5sum: cbbc1abf44a9e6bea6db27f06ae37518
+SHA1: 4eff171b8036951f0230fc44b2af6f1fda9132b9
+SHA256: 2bfa26796cb6ea6843e8861e11b049b05e6e5b73f349daa661d94d1169f40ede
 Section: Tweaks
 Description: A cross-process communication tool for sending and receiving messages on iOS 15 & 16 for rootless JBs
 Author: @CrazyMind90
@@ -57,27 +57,6 @@ Depiction: https://t.me/Life6868
 Name: KidsChanger
 
 Package: com.kids.utilities
-Version: 1.25.01-13
-Architecture: iphoneos-arm
-Maintainer: Kids91
-Installed-Size: 1556
-Pre-Depends: me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substitute
-Depends: firmware (>= 14.0), zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, com.saurik.substrate.safemode, com.ex.substitute, org.coolstar.libhooker (>= 0.0.1.1), com.rpetrich.rocketbootstrap (>= 1.1.0~libhooker2), preferenceloader, ws.hbang.common
-Conflicts: com.kids.changerutils, com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
-Replaces: com.kids.changerutils, com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
-Filename: ./debs/com.kids.utilities_1.25.01-13_iphoneos-arm.deb
-Size: 403422
-MD5sum: 16ca353bd34b7d951195389a7b905491
-SHA1: 33bf02b3bd78074a688caae75a55222848ad54da
-SHA256: 53720b12b51310cd8133f0dd0910f0f003a904390a48c88d6f01369c6a19e923
-Section: Utilities
-Description: An application & preferences configs!
-Tag: role::developer
-Author: Kids91 <https://t.me/Life6868>
-Depiction: https://t.me/Life6868
-Name: Kids Utilities
-
-Package: com.kids.utilities
 Version: 1.25.01-19
 Architecture: iphoneos-arm
 Maintainer: Kids91
@@ -99,40 +78,19 @@ Depiction: https://t.me/Life6868
 Name: Kids Utilities
 
 Package: com.kids.utilities
-Version: 1.25.01-27~1
-Architecture: iphoneos-arm64
-Maintainer: Kids91
-Installed-Size: 1504
-Pre-Depends: com.saurik.substrate.safemode (>= 0.9.6005) | com.opa334.libsandy, com.ex.substitute| ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substitute | me.jjolano.hkmodule.ellekit
-Depends: firmware (>= 14.0), zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, org.coolstar.libhooker (>= 0.0.1.1) | com.opa334.libsandy, com.rpetrich.rocketbootstrap (>= 1.1.0) | cm90.crossoveripc, mterminal (>= 1.5-2) | ws.hbang.newterm3, preferenceloader, ws.hbang.common
-Conflicts: com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
-Replaces: com.kids.changerutils, com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
-Filename: ./debs/com.kids.utilities_1.25.01-27~1_iphoneos-arm64.deb
-Size: 397486
-MD5sum: b32badbb8338ea26457102924aff9f75
-SHA1: 6caa334c4b9cc647daa58102c22a8ab2341ddf15
-SHA256: 36f02404fee4cbe814b1508ba283964b0820579d371faecd3e7c0135d01d921c
-Section: Utilities
-Description: An application & preferences configs!
-Tag: role::developer
-Author: Kids91 <https://t.me/Life6868>
-Depiction: https://t.me/Life6868
-Name: Kids Utilities
-
-Package: com.kids.utilities
 Version: 1.25.01-31~rootless
 Architecture: iphoneos-arm64
 Maintainer: Kids91
-Installed-Size: 1504
+Installed-Size: 1524
 Pre-Depends: com.opa334.libsandy | com.saurik.substrate.safemode (>= 0.9.6005), ellekit | com.ex.substitute, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit | me.jjolano.hkmodule.substitute
-Depends: firmware (>= 14.0), zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, org.coolstar.libhooker (>= 0.0.1.1) | com.opa334.libsandy, cm90.crossoveripc | com.rpetrich.rocketbootstrap (>= 1.1.0), ws.hbang.newterm3 | mterminal (>= 1.5-2), preferenceloader, ws.hbang.common
+Depends: firmware (>= 15.0), zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, com.opa334.libsandy | org.coolstar.libhooker (>= 0.0.1.1), cm90.crossoveripc | com.rpetrich.rocketbootstrap (>= 1.1.0), ws.hbang.newterm3 | mterminal (>= 1.5-2), preferenceloader, ws.hbang.common
 Conflicts: com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
 Replaces: com.kids.changerutils, com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
 Filename: ./debs/com.kids.utilities_1.25.01-31~rootless_iphoneos-arm64.deb
-Size: 398344
-MD5sum: ddadbd9f5aee4e87850265834934b178
-SHA1: c5b154d786c99879cee80d345dd4b3fe7db4b73f
-SHA256: 49f1e6d43db796501dd00d0caff017d37b029ff32b37281472cd2970ca055149
+Size: 399926
+MD5sum: e70ff968b5ea601a811f2cfc0806e5e6
+SHA1: 3b52a8f43f573e40a5c7e801e792347f6157265a
+SHA256: 0539bfd363ea0a7d4fc1dd572e97d1c3116c6b11ca28f43b4b3746ea5d464f89
 Section: Utilities
 Description: An application & preferences configs!
 Tag: role::developer
@@ -217,19 +175,17 @@ Version: 1.1.1~rootless
 Architecture: iphoneos-arm64
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 256
-Pre-Depends: com.saurik.substrate.safemode (>= 0.9.6005) | com.opa334.libsandy, com.ex.substitute| ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substitute | me.jjolano.hkmodule.ellekit
-Depends: firmware (>= 14.0)
+Pre-Depends: com.opa334.libsandy | com.saurik.substrate.safemode (>= 0.9.6005), ellekit | com.ex.substitute, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit | me.jjolano.hkmodule.substitute
+Depends: firmware (>= 15.0)
 Filename: ./debs/com.rpetrich.rocketbootstrap_1.1.1~rootless_iphoneos-arm64.deb
-Size: 17888
-MD5sum: d01cda49e3f994b26531b4fd8f2f21e6
-SHA1: f62e0169268d371d8f787376d2bee9aca2a36722
-SHA256: 51d2aaaebdb46fa980c366fcad10eee1be442fe1c6bc3b291ea01ffa3190a1bb
+Size: 17874
+MD5sum: efc72929c684698813baaa2647a355bf
+SHA1: aa548d3aa1afb47977b8f392fc1cd9e84f7c9761
+SHA256: 7be591c85b16940b0da05f450aa213a1b5f4788822f3130233a8aefc6b26a73a
 Section: Tweaks
-Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
 Description: Support library allowing tweaks to communicate with sandboxed processes, support Rootless
 Tag: purpose::extension, role::developer
 Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
-Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
 Dev: rpetrich
 Name: RocketBootstrap
 
@@ -306,38 +262,21 @@ Author: jjolano
 Name: HookKit Framework
 
 Package: me.jjolano.fmwk.hookkit
-Version: 1.0.17~14.5
+Version: 1.0.17~rootless
 Architecture: iphoneos-arm64
 Maintainer: jjolano
 Installed-Size: 76
 Depends: firmware (>= 15.0), me.jjolano.fmwk.modulous (>> 1.0.9), me.jjolano.fmwk.rootbridge (>> 1.0.2)
-Filename: ./debs/me.jjolano.fmwk.hookkit_1.0.17_iphoneos-arm64.deb
-Size: 8948
-MD5sum: aefb76169a0c679b06091ec00c22cb4c
-SHA1: e45f32d4c243cf1b85dae19c066200f0caf1db6c
-SHA256: 3bf7dea065047aea11033d6c40f0264464f93dc5a6e342b5a78b985f8e251506
+Filename: ./debs/me.jjolano.fmwk.hookkit_1.0.17~rootless_iphoneos-arm64.deb
+Size: 8884
+MD5sum: 31b8951b7cf109fd9b8f6f1123e23fc5
+SHA1: c5c919e90b55d5450dc69ded4ec3b2b1fdac608b
+SHA256: 7bc4cc188be7e04199b6ee6ce1019fd98783390e8488a33422ee0f6bc92eff2a
 Section: Development
-Description: An iOS developer framework for unified hooking methods. Mod by Cường Trần (Kids)
+Description: An iOS developer framework for unified hooking methods. Stable with KidsAuto
 Tag: role::developer
 Author: jjolano
 Name: HookKit Framework
-
-Package: me.jjolano.fmwk.modulous
-Version: 1.0.10~14.5
-Architecture: iphoneos-arm64
-Maintainer: jjolano
-Installed-Size: 72
-Depends: firmware (>= 15.0)
-Filename: ./debs/me.jjolano.fmwk.modulous_1.0.10_iphoneos-arm64.deb
-Size: 4890
-MD5sum: 70d4ea0659618a2072f48b1cad6c22cc
-SHA1: 166e2145d716473bbc520bd415c8eb8406af5ffd
-SHA256: e841e5415ac0aedbc5621c438572c1a416ee8d2a1aab16e71596e24217a0efa3
-Section: Development
-Description: An iOS developer framework for modular software. Mod by Cường Trần (Kids)
-Tag: role::developer
-Author: jjolano
-Name: Modulous Framework
 
 Package: me.jjolano.fmwk.modulous
 Version: 1.0.10~14.5
@@ -352,6 +291,23 @@ SHA1: 11724324f434bd4f4c0925beb8e8747c04dda179
 SHA256: eff0f61554927d645a9ec9c8bfdc7babd6c9b03434dd384c27b8185ed0631179
 Section: Development
 Description: An iOS developer framework for modular software. Mod by Cường Trần (Kids)
+Tag: role::developer
+Author: jjolano
+Name: Modulous Framework
+
+Package: me.jjolano.fmwk.modulous
+Version: 1.0.10~rootless
+Architecture: iphoneos-arm64
+Maintainer: jjolano
+Installed-Size: 72
+Depends: firmware (>= 15.0)
+Filename: ./debs/me.jjolano.fmwk.modulous_1.0.10~rootless_iphoneos-arm64.deb
+Size: 4876
+MD5sum: 8a1822f1efe232a1b7e8a100f46f4627
+SHA1: 0f9d14153584d47ea46e18500fd481e56217e0bd
+SHA256: 24d59cb258252b48d1e93c545ece8d3fcc490b9fc6fe925709fab89ceeefdb92
+Section: Development
+Description: An iOS developer framework for modular software. Stable with KidsAuto
 Tag: role::developer
 Author: jjolano
 Name: Modulous Framework
@@ -408,18 +364,18 @@ Author: jjolano
 Name: RootBridge Framework
 
 Package: me.jjolano.fmwk.rootbridge
-Version: 1.0.3~14.5
+Version: 1.0.3~rootless
 Architecture: iphoneos-arm64
 Maintainer: jjolano
 Installed-Size: 72
 Depends: firmware (>= 15.0)
-Filename: ./debs/me.jjolano.fmwk.rootbridge_1.0.3_iphoneos-arm64.deb
-Size: 3170
-MD5sum: e99fb4d9c1f0e3650fec5daf913185f3
-SHA1: fcbd2e53ff538019cd779387f50f9d787271a04e
-SHA256: d7f7dcddae861fc9f253e0fcb50e7f716e3b7d0d12dc0576a3154f87d3e66cac
+Filename: ./debs/me.jjolano.fmwk.rootbridge_1.0.3~rootless_iphoneos-arm64.deb
+Size: 3148
+MD5sum: b3164f13153d5c25bfc0c7bddfcf0de3
+SHA1: 3c3d16bb2b27545131c5cdef2ef1dbd95e9b7df2
+SHA256: dedbc08177839ac627911cea3a78440d42bd87c585c4252060fe42bc5049f866
 Section: Development
-Description: An iOS developer framework for rootless tweak development. Mod by Cường Trần (Kids)
+Description: An iOS developer framework for rootless tweak development. Stable with KidsAuto
 Tag: role::developer
 Author: jjolano
 Name: RootBridge Framework
@@ -433,10 +389,10 @@ Pre-Depends: me.jjolano.fmwk.hookkit
 Depends: ellekit
 Provides: me.jjolano.hkmodule.substrate
 Filename: ./debs/me.jjolano.hkmodule.ellekit_1.0.7_iphoneos-arm64.deb
-Size: 3986
-MD5sum: 5a8d2cac31e5c19bd3ae312b0b8932aa
-SHA1: 32bcef05d112d8daa16ed97b79ce87718e41164d
-SHA256: f4cb620d0a6f619e86a0c066c1f5ed97bfb5abc0f7b97179a77e535ee6c39e60
+Size: 3982
+MD5sum: d715789e5dad8d8fa8224fdb8f13ca00
+SHA1: df9a94487d3dcd38705c58d7c93fc0e38e8e4b66
+SHA256: 90f008cd62eac4870935a96c1e4db82e1ae39d846c0b73a6506d1a256493afb8
 Section: HookKit (Modules)
 Description: This module provides the ElleKit API for HookKit Framework.
 Author: jjolano
