@@ -129,10 +129,10 @@ Depends: firmware (>= 14.0), zip, unzip, gzip, rsync, socat, sqlite3, openssh, o
 Conflicts: com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
 Replaces: com.kids.changerutils, com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
 Filename: ./debs/com.kids.utilities_1.25.01-31~rootless_iphoneos-arm64.deb
-Size: 396610
-MD5sum: 726868b4e15d2e89c82da46baec04627
-SHA1: 35cbfe18036272d8fab614a9ea450dcfff2e5a68
-SHA256: ca2839de93c4cda987ee97b3f1d5cead1448ba108b7209b23d729025c59b65d6
+Size: 398344
+MD5sum: ddadbd9f5aee4e87850265834934b178
+SHA1: c5b154d786c99879cee80d345dd4b3fe7db4b73f
+SHA256: 49f1e6d43db796501dd00d0caff017d37b029ff32b37281472cd2970ca055149
 Section: Utilities
 Description: An application & preferences configs!
 Tag: role::developer
