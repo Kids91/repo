@@ -78,19 +78,19 @@ Depiction: https://t.me/Life6868
 Name: Kids Utilities
 
 Package: com.kids.utilities
-Version: 1.25.01-31~rootless
+Version: 1.25.02-1~rootless
 Architecture: iphoneos-arm64
 Maintainer: Kids91
-Installed-Size: 1524
+Installed-Size: 1508
 Pre-Depends: com.opa334.libsandy | com.saurik.substrate.safemode (>= 0.9.6005), ellekit | com.ex.substitute, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit | me.jjolano.hkmodule.substitute
 Depends: firmware (>= 15.0), zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, com.opa334.libsandy | org.coolstar.libhooker (>= 0.0.1.1), cm90.crossoveripc | com.rpetrich.rocketbootstrap (>= 1.1.0), ws.hbang.newterm3 | mterminal (>= 1.5-2), preferenceloader, ws.hbang.common
 Conflicts: com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
 Replaces: com.kids.changerutils, com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
-Filename: ./debs/com.kids.utilities_1.25.01-31~rootless_iphoneos-arm64.deb
-Size: 399926
-MD5sum: e70ff968b5ea601a811f2cfc0806e5e6
-SHA1: 3b52a8f43f573e40a5c7e801e792347f6157265a
-SHA256: 0539bfd363ea0a7d4fc1dd572e97d1c3116c6b11ca28f43b4b3746ea5d464f89
+Filename: ./debs/com.kids.utilities_1.25.02-1~rootless_iphoneos-arm64.deb
+Size: 400144
+MD5sum: a818b7920d87661977f6c2f76bf904c2
+SHA1: 59fc2c6b410146565ebc67e503e2c590a62261b0
+SHA256: 306b2cdee3a005bf8f89f2b599dceb6ad16f16e3a14489d1c58140f92012c45d
 Section: Utilities
 Description: An application & preferences configs!
 Tag: role::developer
@@ -207,17 +207,17 @@ Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1854
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.rpetrich.rocketbootstrap
-Version: 1.1.1~rootless
+Version: 1.1.2~rootless
 Architecture: iphoneos-arm64
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 256
+Installed-Size: 224
 Pre-Depends: com.opa334.libsandy | com.saurik.substrate.safemode (>= 0.9.6005), ellekit | com.ex.substitute, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit | me.jjolano.hkmodule.substitute
-Depends: firmware (>= 15.0)
-Filename: ./debs/com.rpetrich.rocketbootstrap_1.1.1~rootless_iphoneos-arm64.deb
-Size: 17874
-MD5sum: efc72929c684698813baaa2647a355bf
-SHA1: aa548d3aa1afb47977b8f392fc1cd9e84f7c9761
-SHA256: 7be591c85b16940b0da05f450aa213a1b5f4788822f3130233a8aefc6b26a73a
+Depends: firmware (>= 15.0), ldid, bsdiff
+Filename: ./debs/com.rpetrich.rocketbootstrap_1.1.2~rootless_iphoneos-arm64.deb
+Size: 16400
+MD5sum: 81600f0bcec09ddeec7bf1f27666d28d
+SHA1: 76e8198060b51257065f39b024284cab672cf61e
+SHA256: 6178d817eb9c8a5c891c5e8757324afe7279bc84ba14cd7540a70d8d10324291
 Section: Tweaks
 Description: Support library allowing tweaks to communicate with sandboxed processes, support Rootless
 Tag: purpose::extension, role::developer
