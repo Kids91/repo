@@ -214,10 +214,10 @@ Installed-Size: 224
 Pre-Depends: com.opa334.libsandy | com.saurik.substrate.safemode (>= 0.9.6005), ellekit | com.ex.substitute, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit | me.jjolano.hkmodule.substitute
 Depends: firmware (>= 15.0), ldid, bsdiff
 Filename: ./debs/com.rpetrich.rocketbootstrap_1.1.2~rootless_iphoneos-arm64.deb
-Size: 16400
-MD5sum: 81600f0bcec09ddeec7bf1f27666d28d
-SHA1: 76e8198060b51257065f39b024284cab672cf61e
-SHA256: 6178d817eb9c8a5c891c5e8757324afe7279bc84ba14cd7540a70d8d10324291
+Size: 16396
+MD5sum: 1629de0b3fb56c37e46653b40ec549b7
+SHA1: 7e23999c6859e0e9c2b73be8777305553475cb8b
+SHA256: 0f487f2284f03fad6c9c87d7795273c29998485a721ee2ddb12805394d5e921a
 Section: Tweaks
 Description: Support library allowing tweaks to communicate with sandboxed processes, support Rootless
 Tag: purpose::extension, role::developer
