@@ -206,25 +206,6 @@ Name: RocketBootstrap
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1854
 Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: com.rpetrich.rocketbootstrap
-Version: 1.1.2~rootless
-Architecture: iphoneos-arm64
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 224
-Pre-Depends: com.opa334.libsandy | com.saurik.substrate.safemode (>= 0.9.6005), ellekit | com.ex.substitute, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit | me.jjolano.hkmodule.substitute
-Depends: firmware (>= 15.0), ldid, bsdiff
-Filename: ./debs/com.rpetrich.rocketbootstrap_1.1.2~rootless_iphoneos-arm64.deb
-Size: 16396
-MD5sum: 1629de0b3fb56c37e46653b40ec549b7
-SHA1: 7e23999c6859e0e9c2b73be8777305553475cb8b
-SHA256: 0f487f2284f03fad6c9c87d7795273c29998485a721ee2ddb12805394d5e921a
-Section: Tweaks
-Description: Support library allowing tweaks to communicate with sandboxed processes, support Rootless
-Tag: purpose::extension, role::developer
-Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
-Dev: rpetrich
-Name: RocketBootstrap
-
 Package: com.saurik.substrate.safemode
 Version: 0.9.6005
 Architecture: iphoneos-arm
