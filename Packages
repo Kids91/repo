@@ -78,19 +78,19 @@ Depiction: https://t.me/Life6868
 Name: Kids Utilities
 
 Package: com.kids.utilities
-Version: 1.25.26-24~rootless
+Version: 25.03.19
 Architecture: iphoneos-arm64
 Maintainer: Kids91
-Installed-Size: 1504
-Pre-Depends: com.opa334.libsandy | com.saurik.substrate.safemode (>= 0.9.6005), ellekit | com.ex.substitute, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit | me.jjolano.hkmodule.substitute
-Depends: firmware (>= 15.0), zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, bsdiff, ldid, com.opa334.libsandy | org.coolstar.libhooker (>= 0.0.1.1), cm90.crossoveripc | com.rpetrich.rocketbootstrap, ws.hbang.newterm3 | mterminal (>= 1.5-2), preferenceloader, ws.hbang.common
+Installed-Size: 1484
+Pre-Depends: com.saurik.substrate.safemode (>= 0.9.6005), ellekit | com.ex.substitute, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit | me.jjolano.hkmodule.substitute
+Depends: firmware (>= 15.0), zip, unzip, gzip, rsync, socat, sqlite3, open | com.conradkramer.open, openssh, openssl, bsdiff, ldid, com.opa334.libsandy, cm90.crossoveripc, ws.hbang.newterm3, preferenceloader, ws.hbang.common
 Conflicts: com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
 Replaces: com.kids.changerutils, com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
-Filename: ./debs/com.kids.utilities_1.25.26-24~rootless_iphoneos-arm64.deb
-Size: 399210
-MD5sum: a8cc6247ed22863c7e4fc0f37885b05b
-SHA1: 87fc667a9315ca391a03ea2306e4f038868b97db
-SHA256: 0fb548d3bb1e1ed06044a71ea0673de38d5677dc1b5556de51d379c8821dc9f9
+Filename: ./debs/com.kids.utilities_25.03.19_iphoneos-arm64.deb
+Size: 395918
+MD5sum: 65506a21fb322a6fdad57bd4ea2c4c06
+SHA1: 5885071abefd42d8732dd9ea5f3fe380228065f9
+SHA256: ce870158d57144a56031ed451eab5e51ebdd866853171d84ffb0337d481679e1
 Section: Utilities
 Description: An application & preferences configs!
 Tag: role::developer
@@ -99,40 +99,19 @@ Depiction: https://t.me/Life6868
 Name: Kids Utilities
 
 Package: com.kids.utilities
-Version: 25.03.17
-Architecture: iphoneos-arm64
-Maintainer: Kids91
-Installed-Size: 1544
-Pre-Depends: com.opa334.libsandy | com.saurik.substrate.safemode (>= 0.9.6005), ellekit | com.ex.substitute, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit | me.jjolano.hkmodule.substitute
-Depends: firmware (>= 15.0), zip, unzip, gzip, rsync, socat, sqlite3, open | com.conradkramer.open, openssh, openssl, bsdiff, ldid, com.opa334.libsandy | org.coolstar.libhooker (>= 0.0.1.1), cm90.crossoveripc | com.rpetrich.rocketbootstrap, ws.hbang.newterm3 | mterminal (>= 1.5-2), preferenceloader, ws.hbang.common
-Conflicts: com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
-Replaces: com.kids.changerutils, com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
-Filename: ./debs/com.kids.utilities_25.03.17_iphoneos-arm64.deb
-Size: 406476
-MD5sum: d0a252ce6dd3d9e91666b6860cf88d31
-SHA1: 472871c2b39a948d6de8a882bd2f368a04e2b7a3
-SHA256: 8bbf010a5bd6e8ce9f407173487dd672e3682a56c503b3dc3a3dcf4afc2c78e3
-Section: Utilities
-Description: An application & preferences configs!
-Tag: role::developer
-Author: Kids91 <https://t.me/Life6868>
-Depiction: https://t.me/Life6868
-Name: Kids Utilities
-
-Package: com.kids.utilities
-Version: 25.03.18
+Version: 25.03.19
 Architecture: iphoneos-arm
 Maintainer: Kids91
 Installed-Size: 1484
-Pre-Depends: com.opa334.libsandy | com.saurik.substrate.safemode (>= 0.9.6005), ellekit | com.ex.substitute, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit | me.jjolano.hkmodule.substitute
-Depends: firmware (>= 15.0), zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, com.opa334.libsandy | org.coolstar.libhooker (>= 0.0.1.1), cm90.crossoveripc | com.rpetrich.rocketbootstrap, ws.hbang.newterm3 | mterminal (>= 1.5-2), preferenceloader, ws.hbang.common
+Pre-Depends: com.saurik.substrate.safemode (>= 0.9.6005), ellekit | com.ex.substitute, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit | me.jjolano.hkmodule.substitute
+Depends: firmware (>= 15.0), zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, com.opa334.libsandy, org.coolstar.libhooker (>= 0.0.1.1), cm90.crossoveripc | com.rpetrich.rocketbootstrap, mterminal (>= 1.5-2) | ws.hbang.newterm3, preferenceloader, ws.hbang.common
 Conflicts: com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
 Replaces: com.kids.changerutils, com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
-Filename: ./debs/com.kids.utilities_25.03.18_iphoneos-arm.deb
-Size: 395846
-MD5sum: 1b5a6a951d113b360e0e9efcbb8ff92c
-SHA1: 6eaeabd430433115db0a1867334d0daed452dbf6
-SHA256: f44b2204695079e6b8df5181d1e163f008c3b5141714b40a5b2cee06c6a359a5
+Filename: ./debs/com.kids.utilities_25.03.19_iphoneos-arm.deb
+Size: 395936
+MD5sum: fd5348f6c2739f4eff181eb2d2ead149
+SHA1: 3cd99d77fc2bf2e7380dd1c29215b4107b3fa5ab
+SHA256: 2f035425375a1cfc3d4ffd7cfaf4320530f8e2964c1e0a53aba8655cbb664654
 Section: Utilities
 Description: An application & preferences configs!
 Tag: role::developer
@@ -191,6 +170,24 @@ Tag: role::developer
 Author: opa334
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
 Name: AltList
+
+Package: com.opa334.libsandy
+Version: 1.1.4
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 312
+Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
+Filename: ./debs/com.opa334.libsandy_1.1.4_iphoneos-arm.deb
+Size: 20546
+MD5sum: 25e8918d912d4ece138a221b6d5731a6
+SHA1: 970b4d73c793ae3561abac288347922818b9b0fe
+SHA256: e80b6573fec6cbe3d30274683d2df7692642c70546fe3321247328c97058d010
+Section: System
+Description: Securely extend the sandbox of system processes and user applications
+Tag: role::developer
+Author: opa334
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Name: libSandy
 
 Package: com.opa334.libsandy
 Version: 1.1.4
