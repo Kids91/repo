@@ -45,13 +45,13 @@ Pre-Depends: firmware (>= 12.0), com.ex.substitute, com.saurik.substrate.safemod
 Depends: zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, com.opa334.libsandy, org.coolstar.libhooker (>= 0.0.1.1), com.rpetrich.rocketbootstrap, preferenceloader, ws.hbang.common
 Conflicts: firmware (>= 15.0), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
 Filename: ./debs/com.kids.utilities_25.03.25-checkra1n_iphoneos-arm.deb
-Size: 397588
-MD5sum: 5c4b223b2cb3ef34016a1d3c8b360ba9
-SHA1: bc678ca1ab2fbf757c2f27e2f57acdc16fa7c9e0
-SHA256: ed097bb7f25db2fb20e0ffb94c9105c4c5d174a901b99e5239b59a5d161a0590
+Size: 397878
+MD5sum: 8f664c80704a09e1dd18bc5782264bef
+SHA1: db17d6f2f31baa611dfb1b620c20f624d9254770
+SHA256: 3535a4f81b31fbe4de615ba37be2ee89df9278c75d4fdae98f4fec74871d025b
 Section: Utilities
 Description: An application & preferences configs!
-Tag: role::developer
+Tag: role::developer compatible::ios12, compatible::ios13, compatible::ios14
 Author: Kids91 <https://t.me/Life6868>
 Depiction: https://t.me/Life6868
 Name: Kids Utilities
