@@ -37,18 +37,18 @@ Author: comex <comexk+da@gmail.com>
 Name: Substitute
 
 Package: com.kids.utilities
-Version: 25.03.24-checkra1n
+Version: 25.03.25-checkra1n
 Architecture: iphoneos-arm
 Maintainer: Kids91
 Installed-Size: 1484
 Pre-Depends: firmware (>= 12.0), com.ex.substitute, com.saurik.substrate.safemode (>= 0.9.6005), me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substitute
 Depends: zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, com.opa334.libsandy, org.coolstar.libhooker (>= 0.0.1.1), com.rpetrich.rocketbootstrap, preferenceloader, ws.hbang.common
 Conflicts: firmware (>= 15.0), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
-Filename: ./debs/com.kids.utilities_25.03.24-checkra1n_iphoneos-arm.deb
-Size: 396548
-MD5sum: 94508a406300e7914cd44686bf5f49bc
-SHA1: 441f5d1b9758f9a76c143e921bf95cb71ae9a754
-SHA256: 9bc56f824ceaf3cffe26a341860b2b934e56151a9136a15ff981e9593752bfe0
+Filename: ./debs/com.kids.utilities_25.03.25-checkra1n_iphoneos-arm.deb
+Size: 397588
+MD5sum: 5c4b223b2cb3ef34016a1d3c8b360ba9
+SHA1: bc678ca1ab2fbf757c2f27e2f57acdc16fa7c9e0
+SHA256: ed097bb7f25db2fb20e0ffb94c9105c4c5d174a901b99e5239b59a5d161a0590
 Section: Utilities
 Description: An application & preferences configs!
 Tag: role::developer
