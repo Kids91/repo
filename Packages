@@ -93,20 +93,18 @@ Version: 25.03.24-rootless
 Architecture: iphoneos-arm64
 Maintainer: Kids91
 Installed-Size: 1484
-Pre-Depends: ellekit,
+Pre-Depends: firmware (>= 15.0), ellekit,
              me.jjolano.fmwk.hookkit,
              me.jjolano.hkmodule.ellekit
-Depends: firmware (>= 15.0),
- 	 zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, bsdiff, ldid,
-     open | com.conradkramer.open,
- 	 com.opa334.libsandy, cm90.crossoveripc, mterminal (>= 1.5-2) | ws.hbang.newterm3,
- 	 preferenceloader, ws.hbang.common
+Depends: zip, unzip, gzip, rsync, socat, sqlite3, open | com.conradkramer.open, openssh, openssl, bsdiff, ldid,
+ 	     com.opa334.libsandy, cm90.crossoveripc, mterminal (>= 1.5-2) | ws.hbang.newterm3,
+ 	     preferenceloader, ws.hbang.common
 Conflicts: firmware (<< 15.0), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
 Filename: ./debs/com.kids.utilities_25.03.24-rootless_iphoneos-arm64.deb
-Size: 396368
-MD5sum: 74cdf34ae0208684884b0883e1439cb5
-SHA1: 542bfa6cfa67dcb9a347c4549eabbe1c1263b178
-SHA256: c0dbda1a4fca5b7874c03d87496be071615435cfeec5803c9387203e5ae25728
+Size: 396074
+MD5sum: 3671c5915e7d2a40f5a912129eab0d15
+SHA1: 30001561741375849dbb5338fc65bdf009748e87
+SHA256: 98fee29155fda9f6a07a9b6b5df5a78057cf2fe8eae7b7c369f96140dc6182e8
 Section: Utilities
 Description: An application & preferences configs!
 Tag: role::developer
