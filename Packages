@@ -56,6 +56,26 @@ Author: Kids91 <https://t.me/Life6868>
 Depiction: https://t.me/Life6868
 Name: Kids Utilities
 
+Package: com.kids.utilities
+Version: 25.03.24-rootless
+Architecture: iphoneos-arm64
+Maintainer: Kids91
+Installed-Size: 1484
+Pre-Depends: firmware (>= 15.0), ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit
+Depends: zip, unzip, gzip, rsync, socat, sqlite3, open | com.conradkramer.open, openssh, openssl, bsdiff, ldid, com.opa334.libsandy, cm90.crossoveripc, mterminal (>= 1.5-2) | ws.hbang.newterm3, preferenceloader, ws.hbang.common
+Conflicts: firmware (<< 15.0), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
+Filename: ./debs/com.kids.utilities_25.03.24-rootless_iphoneos-arm64.deb
+Size: 396654
+MD5sum: ac981e48d9426bb1b39f9762004caee8
+SHA1: 92281e5a532fde4b947c6e5084f24888ef86c274
+SHA256: 27f530a72aa06405c10b942e93e7a4cc22c638b3853d3bbb6b4b6dbb59ecd319
+Section: Utilities
+Description: An application & preferences configs!
+Tag: role::developer
+Author: Kids91 <https://t.me/Life6868>
+Depiction: https://t.me/Life6868
+Name: Kids Utilities
+
 Package: com.muirey03.cr4shed
 Version: 4.3.0
 Architecture: iphoneos-arm
