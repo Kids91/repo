@@ -37,26 +37,6 @@ Author: comex <comexk+da@gmail.com>
 Name: Substitute
 
 Package: com.kids.utilities
-Version: 25.03.25-checkra1n
-Architecture: iphoneos-arm
-Maintainer: Kids91
-Installed-Size: 1484
-Pre-Depends: firmware (>= 12.0), firmware (<< 15.0), com.ex.substitute, com.saurik.substrate.safemode (>= 0.9.6005), me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substitute
-Depends: zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, com.opa334.libsandy, org.coolstar.libhooker (>= 0.0.1.1), com.rpetrich.rocketbootstrap, preferenceloader, ws.hbang.common
-Conflicts: firmware (>= 15.0), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
-Filename: ./debs/com.kids.utilities_25.03.25-checkra1n_iphoneos-arm.deb
-Size: 399550
-MD5sum: 646a0b017cc9cec907bd0b8d8defbdbd
-SHA1: 4583d0be151d30a34c71e18269e746e59980854a
-SHA256: 0bab271503b9bfa19bae793fde2a4c5bd0521b166351d9f75dd6f9fed871d173
-Section: Utilities
-Description: An application & preferences configs!
-Tag: role::developer compatible::ios12, compatible::ios13, compatible::ios14
-Author: Kids91 <https://t.me/Life6868>
-Depiction: https://t.me/Life6868
-Name: Kids Utilities
-
-Package: com.kids.utilities
 Version: 25.03.25-rootfull
 Architecture: iphoneos-arm
 Maintainer: Kids91
@@ -92,6 +72,26 @@ SHA256: c4fb29f5e6bd4ab2a5d18a22c4bd0b9bda7457800c691b39506f28ee655ac35b
 Section: Utilities
 Description: An application & preferences configs!
 Tag: role::developer compatible::ios15, compatible::ios16, compatible::ios17
+Author: Kids91 <https://t.me/Life6868>
+Depiction: https://t.me/Life6868
+Name: Kids Utilities
+
+Package: com.kids.utilitiescheckra1n
+Version: 25.03.25-checkra1n
+Architecture: iphoneos-arm
+Maintainer: Kids91
+Installed-Size: 1484
+Pre-Depends: firmware (>= 12.0), firmware (<< 15.0), com.ex.substitute, com.saurik.substrate.safemode (>= 0.9.6005), me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substitute
+Depends: zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, com.opa334.libsandy, org.coolstar.libhooker (>= 0.0.1.1), com.rpetrich.rocketbootstrap, preferenceloader, ws.hbang.common
+Conflicts: firmware (>= 15.0), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
+Filename: ./debs/com.kids.utilitiescheckra1n_25.03.25-checkra1n_iphoneos-arm.deb
+Size: 397732
+MD5sum: c58dfa60315e1e991a9d992fa629307a
+SHA1: 53ca60776308b37f74d490e83e7cd9e6187c74a5
+SHA256: 2e1ecd6db53fb6b1cd69237a59d0dbf8798c76fcc9f36a83bcc86ecb64a01171
+Section: Utilities
+Description: An application & preferences configs!
+Tag: role::developer compatible::ios12, compatible::ios13, compatible::ios14
 Author: Kids91 <https://t.me/Life6868>
 Depiction: https://t.me/Life6868
 Name: Kids Utilities
