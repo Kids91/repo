@@ -37,18 +37,18 @@ Author: comex <comexk+da@gmail.com>
 Name: Substitute
 
 Package: com.kids.utilities
-Version: 25.03.25-rootfull
+Version: 25.04.14-rootfull
 Architecture: iphoneos-arm
 Maintainer: Kids91
 Installed-Size: 1484
 Pre-Depends: firmware (>= 15.0), firmware (<< 16.0), com.ex.substitute, com.saurik.substrate.safemode (>= 0.9.6005), me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substitute
-Depends: zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, com.opa334.libsandy, org.coolstar.libhooker (>= 0.0.1.1), com.rpetrich.rocketbootstrap, mterminal (>= 1.5-2), preferenceloader, ws.hbang.common
-Conflicts: firmware (>= 16.0), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
-Filename: ./debs/com.kids.utilities_25.03.25-rootfull_iphoneos-arm.deb
-Size: 396876
-MD5sum: da7fc88ca81ef0c504e4d0471b04c678
-SHA1: ff48c1e9a494b69627be0e911ead60879723971f
-SHA256: f3ed523851e5210af2a907ab1022de978bdb36770672ee2cfd2c49b18664f281
+Depends: zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, ldid, com.opa334.libsandy, org.coolstar.libhooker (>= 0.0.1.1), com.rpetrich.rocketbootstrap, mterminal (>= 1.5-2), preferenceloader, ws.hbang.common
+Conflicts: firmware (<< 15.0), firmware (>= 16.0), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
+Filename: ./debs/com.kids.utilities_25.04.14-rootfull_iphoneos-arm.deb
+Size: 397788
+MD5sum: bc5fa6b2e3f064256bfe9351780e91b3
+SHA1: 4fb6cb4dbb58f7124ca82f314953f9586432239a
+SHA256: b48f0ae3d8502aec274f85ec07a3c4752a6223adb8bc42df64ccfcdeeac9928d
 Section: Utilities
 Description: An application & preferences configs!
 Tag: role::developer compatible::ios15
@@ -57,18 +57,18 @@ Depiction: https://t.me/Life6868
 Name: Kids Utilities
 
 Package: com.kids.utilities
-Version: 25.03.26-rootless
+Version: 25.04.14-rootless
 Architecture: iphoneos-arm64
 Maintainer: Kids91
 Installed-Size: 1484
 Pre-Depends: firmware (>= 15.0), ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit
 Depends: zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, bsdiff, ldid, com.opa334.libsandy, cm90.crossoveripc, mterminal (>= 1.5-2) | ws.hbang.newterm3, preferenceloader, ws.hbang.common
 Conflicts: firmware (<< 15.0), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
-Filename: ./debs/com.kids.utilities_25.03.26-rootless_iphoneos-arm64.deb
-Size: 397760
-MD5sum: a6ada36cf8618b2ab099888d1a8a08ab
-SHA1: 75bb35c6c1571bf39802269f6b4abfcba39bfe44
-SHA256: c8ec8b2ac7531421ea85fc30ae07f567154651a7f5bd4d57a364c8a59e7c8714
+Filename: ./debs/com.kids.utilities_25.04.14-rootless_iphoneos-arm64.deb
+Size: 397572
+MD5sum: abb6daa9092885d792a2b4f0744cc2d0
+SHA1: 5c0d58061e09ee4f713b47e2f3a95c00f991a36a
+SHA256: 0a8d1567dfbc6c0423b524e0d1883ceae1d8b2d3d23a6d281dc5b330760d14b6
 Section: Utilities
 Description: An application & preferences configs!
 Tag: role::developer compatible::ios15, compatible::ios16, compatible::ios17
