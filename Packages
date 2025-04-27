@@ -76,6 +76,26 @@ Author: Kids91 <https://t.me/Life6868>
 Depiction: https://t.me/Life6868
 Name: Kids Utilities
 
+Package: com.kids.utilities
+Version: 25.04.28-rootless
+Architecture: iphoneos-arm64
+Maintainer: Kids91
+Installed-Size: 1484
+Pre-Depends: firmware (>= 15.0), ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit
+Depends: zip, unzip, gzip, rsync, socat, sqlite3, open | com.conradkramer.open, openssh, openssl, bsdiff, ldid, com.opa334.libsandy, cm90.crossoveripc, mterminal (>= 1.5-2) | ws.hbang.newterm3, preferenceloader, ws.hbang.common
+Conflicts: firmware (<< 15.0), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
+Filename: ./debs/com.kids.utilities_25.04.28-rootless_iphoneos-arm64.deb
+Size: 396978
+MD5sum: e68dee57d6679712939af3615c53fce6
+SHA1: 5f2300bad19283eff374bd2bca1e1a1ce3731037
+SHA256: eaa3a831c94ad5b5b9475466cbbe3be6a8630dd6789cbab7661648fedaa92895
+Section: Utilities
+Description: An application & preferences configs!
+Tag: role::developer compatible::ios15, compatible::ios16, compatible::ios17
+Author: Kids91 <https://t.me/Life6868>
+Depiction: https://t.me/Life6868
+Name: Kids Utilities
+
 Package: com.kids.utilitiescheckra1n
 Version: 25.03.25-checkra1n
 Architecture: iphoneos-arm
