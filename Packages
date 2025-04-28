@@ -2,6 +2,22 @@ Package: cm90.crossoveripc
 Version: 1.3.1~rootless
 Architecture: iphoneos-arm64
 Maintainer: @CrazyMind90
+Installed-Size: 304
+Depends: mobilesubstrate
+Filename: ./debs/cm90.crossoveripc_1.3.1-1~rootless_iphoneos-arm64.deb
+Size: 9528
+MD5sum: dabad432ec3d7a322f759cf596d89bfb
+SHA1: 37ae9c84add0248cbc7db64261aec6b5349961c0
+SHA256: ca4fe9f44135320ca6ffed3cd4d9685aa879991eea98bddde7bf2da3bd638000
+Section: Tweaks
+Description: A cross-process communication tool for sending and receiving messages on iOS 15 & 16 for rootless JBs
+Author: @CrazyMind90
+Name: CrossOverIPC
+
+Package: cm90.crossoveripc
+Version: 1.3.1~rootless
+Architecture: iphoneos-arm64
+Maintainer: @CrazyMind90
 Installed-Size: 128
 Depends: mobilesubstrate
 Filename: ./debs/cm90.crossoveripc_1.3.1~rootless_iphoneos-arm64.deb
@@ -109,6 +125,26 @@ Size: 396978
 MD5sum: e68dee57d6679712939af3615c53fce6
 SHA1: 5f2300bad19283eff374bd2bca1e1a1ce3731037
 SHA256: eaa3a831c94ad5b5b9475466cbbe3be6a8630dd6789cbab7661648fedaa92895
+Section: Utilities
+Description: An application & preferences configs!
+Tag: role::developer compatible::ios15, compatible::ios16, compatible::ios17
+Author: Kids91 <https://t.me/Life6868>
+Depiction: https://t.me/Life6868
+Name: Kids Utilities
+
+Package: com.kids.utilities
+Version: 25.04.29-rootless
+Architecture: iphoneos-arm64
+Maintainer: Kids91
+Installed-Size: 2860
+Pre-Depends: firmware (>= 15.0), ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit
+Depends: zip, unzip, gzip, rsync, socat, sqlite3, open | com.conradkramer.open, openssh, openssl, bsdiff, ldid, com.opa334.libsandy, cm90.crossoveripc, mterminal (>= 1.5-2) | ws.hbang.newterm3, preferenceloader, ws.hbang.common
+Conflicts: firmware (<< 15.0), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
+Filename: ./debs/com.kids.utilities_25.04.29-rootless_iphoneos-arm64.deb
+Size: 563436
+MD5sum: 2607f5a756e7b872afa4cc2a6d823a35
+SHA1: 0810a895d4890b1ecd2bedb55b2df982bba137d3
+SHA256: e730ceb1ebe82ab861660b6153db258fa38c653aa9ff05a59a92f467790e0b0a
 Section: Utilities
 Description: An application & preferences configs!
 Tag: role::developer compatible::ios15, compatible::ios16, compatible::ios17
