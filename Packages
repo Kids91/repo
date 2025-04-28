@@ -338,13 +338,13 @@ Package: me.jjolano.fmwk.hookkit
 Version: 1.0.17~rootless
 Architecture: iphoneos-arm64
 Maintainer: jjolano
-Installed-Size: 76
+Installed-Size: 172
 Depends: firmware (>= 15.0), me.jjolano.fmwk.modulous (>> 1.0.9), me.jjolano.fmwk.rootbridge (>> 1.0.2)
-Filename: ./debs/me.jjolano.fmwk.hookkit_1.0.17~rootless_iphoneos-arm64.deb
-Size: 8884
-MD5sum: 31b8951b7cf109fd9b8f6f1123e23fc5
-SHA1: c5c919e90b55d5450dc69ded4ec3b2b1fdac608b
-SHA256: 7bc4cc188be7e04199b6ee6ce1019fd98783390e8488a33422ee0f6bc92eff2a
+Filename: ./debs/me.jjolano.fmwk.hookkit_1.0.17-1~rootless_iphoneos-arm64.deb
+Size: 12040
+MD5sum: 1863a46d1389d9d80bb693c720263e95
+SHA1: d10dc1c235f4ab8474ee03bd1293077a92fa0c6b
+SHA256: f9da5f0a88bf1971bfe0c5449a27984b54d7a691a937efdfaffd66c85062c8f6
 Section: Development
 Description: An iOS developer framework for unified hooking methods. Stable with KidsAuto
 Tag: role::developer
@@ -372,13 +372,13 @@ Package: me.jjolano.fmwk.modulous
 Version: 1.0.10~rootless
 Architecture: iphoneos-arm64
 Maintainer: jjolano
-Installed-Size: 72
+Installed-Size: 168
 Depends: firmware (>= 15.0)
-Filename: ./debs/me.jjolano.fmwk.modulous_1.0.10~rootless_iphoneos-arm64.deb
-Size: 4876
-MD5sum: 8a1822f1efe232a1b7e8a100f46f4627
-SHA1: 0f9d14153584d47ea46e18500fd481e56217e0bd
-SHA256: 24d59cb258252b48d1e93c545ece8d3fcc490b9fc6fe925709fab89ceeefdb92
+Filename: ./debs/me.jjolano.fmwk.modulous_1.0.10-1~rootless_iphoneos-arm64.deb
+Size: 6142
+MD5sum: 6a1a707d5d6c16f0319b3bb182b7f239
+SHA1: 522ece2dd081f64d72fa3d94c9692b6660cbba23
+SHA256: 3727336dc442069d066397107a198c4fea875e19ac4806181050ecf8ab53848d
 Section: Development
 Description: An iOS developer framework for modular software. Stable with KidsAuto
 Tag: role::developer
@@ -440,13 +440,13 @@ Package: me.jjolano.fmwk.rootbridge
 Version: 1.0.3~rootless
 Architecture: iphoneos-arm64
 Maintainer: jjolano
-Installed-Size: 72
+Installed-Size: 168
 Depends: firmware (>= 15.0)
-Filename: ./debs/me.jjolano.fmwk.rootbridge_1.0.3~rootless_iphoneos-arm64.deb
-Size: 3148
-MD5sum: b3164f13153d5c25bfc0c7bddfcf0de3
-SHA1: 3c3d16bb2b27545131c5cdef2ef1dbd95e9b7df2
-SHA256: dedbc08177839ac627911cea3a78440d42bd87c585c4252060fe42bc5049f866
+Filename: ./debs/me.jjolano.fmwk.rootbridge_1.0.3-1~rootless_iphoneos-arm64.deb
+Size: 3898
+MD5sum: 8c158778f93407fa6b4e38802a3f610e
+SHA1: 14e84ea559fd9589b6e11ee40178b83cd4379e24
+SHA256: 68203f2b0a7e7f767ed631df854822c3a62214aa86969980e4944a093a741d4b
 Section: Development
 Description: An iOS developer framework for rootless tweak development. Stable with KidsAuto
 Tag: role::developer
@@ -457,15 +457,15 @@ Package: me.jjolano.hkmodule.ellekit
 Version: 1.0.7
 Architecture: iphoneos-arm64
 Maintainer: jjolano
-Installed-Size: 72
+Installed-Size: 168
 Pre-Depends: me.jjolano.fmwk.hookkit
 Depends: ellekit
 Provides: me.jjolano.hkmodule.substrate
-Filename: ./debs/me.jjolano.hkmodule.ellekit_1.0.7_iphoneos-arm64.deb
-Size: 3978
-MD5sum: 6754947bf9d28d9a5619bf454d37c5ed
-SHA1: 976748cc5cb0223ccb013d9621603ef975e24722
-SHA256: 3c96044baa416ec54cc7ab9ec8d8b965d76f8726cdde0ebfc5c131fa8b14b16f
+Filename: ./debs/me.jjolano.hkmodule.ellekit_1.0.7-1_iphoneos-arm64.deb
+Size: 4876
+MD5sum: fbf9d0cb5b103c88fa9ee4065b91c7ec
+SHA1: feefa73181c766f6228a1df31d7c9839fb14a591
+SHA256: 1d1711ca3dd9d3ff769c30eb6769a5fecb7ac6e93be463f19386e176c9eb7361
 Section: HookKit (Modules)
 Description: This module provides the ElleKit API for HookKit Framework.
 Author: jjolano
