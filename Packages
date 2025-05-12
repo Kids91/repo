@@ -54,17 +54,17 @@ Name: Substitute
 
 Package: com.kids.utilities
 Version: 25.05.13~rootfull
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Maintainer: Kids91
 Installed-Size: 2864
 Pre-Depends: firmware (>= 15.0), firmware (<< 16.0), com.ex.substitute, com.saurik.substrate.safemode (>= 0.9.6005), me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substitute
 Depends: zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, ldid, com.opa334.libsandy, org.coolstar.libhooker (>= 0.0.1.1), com.rpetrich.rocketbootstrap, mterminal (>= 1.5-2), preferenceloader, ws.hbang.common
 Conflicts: firmware (<< 15.0), firmware (>= 16.0), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
-Filename: ./debs/com.kids.utilities_25.05.13~rootfull_iphoneos-arm64.deb
-Size: 564062
-MD5sum: e5c6f8de3fb0a4c834a488e8fa484d91
-SHA1: 007a5a8f8ed34bd11ef0dc11a7351a7cfb2212b8
-SHA256: 09a19fc2bfaf6f9625c721ab7a090d73de1d14f33a5d5f2f1812423a0a94c34a
+Filename: ./debs/com.kids.utilities_25.05.13~rootfull_iphoneos-arm.deb
+Size: 563836
+MD5sum: 1757b4448f47547bc32c846a64df663f
+SHA1: 4a988063a206a534099a860df7bf80f9078b0166
+SHA256: 0d999c9550e4f098f143d1e46b43fcd19578dd9462974c0595f906abf3beba65
 Section: Utilities
 Description: An application & preferences configs!
 Tag: role::developer compatible::ios15
@@ -81,10 +81,10 @@ Pre-Depends: firmware (>= 15.0), ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hk
 Depends: zip, unzip, gzip, rsync, socat, sqlite3, open | com.conradkramer.open, openssh, openssl, bsdiff, ldid, com.opa334.libsandy, cm90.crossoveripc, mterminal (>= 1.5-2) | ws.hbang.newterm3, preferenceloader, ws.hbang.common
 Conflicts: firmware (<< 15.0), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
 Filename: ./debs/com.kids.utilities_25.05.13~rootless_iphoneos-arm64.deb
-Size: 563566
-MD5sum: b590a06325fc785dc0f1a1d8d1c1586a
-SHA1: c24354213a710a4250f917f965a3ce22a36a6f37
-SHA256: 5a1aac7be695e080abe933b66612a9f07ee824d9bdc6ba8f01fd3925699c60d8
+Size: 564990
+MD5sum: 325c0dd34a024a7894ab250e03d02c56
+SHA1: 8052c10b4c9e93ac154eb5a4bba5ce317b0b88eb
+SHA256: ce0378f9892e630775e3c01f33a16a248128024fb6bcbbf6a72c7708a000fccd
 Section: Utilities
 Description: An application & preferences configs!
 Tag: role::developer compatible::ios15, compatible::ios16, compatible::ios17
