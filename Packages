@@ -1,4 +1,38 @@
 Package: cm90.crossoveripc
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: @CrazyMind90
+Installed-Size: 352
+Depends: mobilesubstrate
+Conflicts: com.rpetrich.rocketbootstrap
+Filename: ./debs/cm90.crossoveripc_1.1.1_iphoneos-arm.deb
+Size: 12524
+MD5sum: 3d90db27778378e9fbffb7d236e8be0c
+SHA1: b9c28c52de10069f89967343178bf39aa00b0f86
+SHA256: ddb3e71389bd80dea9093ba597f81821da54d36855af2d339701a6282310ef74
+Section: Tweaks
+Description: A cross-process communication tool for sending and receiving messages on iOS 15 & 16 for rootfull - rootless JBs
+Author: @CrazyMind90
+Name: CrossOverIPC
+
+Package: cm90.crossoveripc
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: @CrazyMind90
+Installed-Size: 304
+Depends: mobilesubstrate
+Conflicts: com.rpetrich.rocketbootstrap
+Filename: ./debs/cm90.crossoveripc_1.1.1_iphoneos-arm64.deb
+Size: 9610
+MD5sum: ceead90451d67865cdd03e9721428029
+SHA1: 4b466d54692f4dde0832c88e16ee3bc617ed9c7d
+SHA256: 8dd77f4a27884ee5434cf8e18df31cb609ffa79520fa356197ccedd8073852ad
+Section: Tweaks
+Description: A cross-process communication tool for sending and receiving messages on iOS 15 & 16 for rootfull - rootless JBs
+Author: @CrazyMind90
+Name: CrossOverIPC
+
+Package: cm90.crossoveripc
 Version: 1.3.1~rootless
 Architecture: iphoneos-arm64
 Maintainer: @CrazyMind90
@@ -9,22 +43,6 @@ Size: 9528
 MD5sum: dabad432ec3d7a322f759cf596d89bfb
 SHA1: 37ae9c84add0248cbc7db64261aec6b5349961c0
 SHA256: ca4fe9f44135320ca6ffed3cd4d9685aa879991eea98bddde7bf2da3bd638000
-Section: Tweaks
-Description: A cross-process communication tool for sending and receiving messages on iOS 15 & 16 for rootless JBs
-Author: @CrazyMind90
-Name: CrossOverIPC
-
-Package: cm90.crossoveripc
-Version: 1.3.1~rootless
-Architecture: iphoneos-arm64
-Maintainer: @CrazyMind90
-Installed-Size: 128
-Depends: mobilesubstrate
-Filename: ./debs/cm90.crossoveripc_1.3.1~rootless_iphoneos-arm64.deb
-Size: 7252
-MD5sum: cbbc1abf44a9e6bea6db27f06ae37518
-SHA1: 4eff171b8036951f0230fc44b2af6f1fda9132b9
-SHA256: 2bfa26796cb6ea6843e8861e11b049b05e6e5b73f349daa661d94d1169f40ede
 Section: Tweaks
 Description: A cross-process communication tool for sending and receiving messages on iOS 15 & 16 for rootless JBs
 Author: @CrazyMind90
@@ -125,6 +143,26 @@ Size: 564260
 MD5sum: e850473f75e49abeaaa674e300d5214f
 SHA1: e18de6045f9c72dbdcdab175fef07440b1b643a4
 SHA256: 6767c2e21952aeb4641dcfe04c5513aa207e32283a80f49477feaa3b37833fad
+Section: Utilities
+Description: An application & preferences configs!
+Tag: role::developer compatible::ios15
+Author: Kids91 <https://t.me/Life6868>
+Depiction: https://t.me/Life6868
+Name: Kids Utilities
+
+Package: com.kids.utilities
+Version: 25.07.18~rootfull
+Architecture: iphoneos-arm
+Maintainer: Kids91
+Installed-Size: 2864
+Pre-Depends: firmware (>= 15.0), firmware (<< 16.0), com.ex.substitute | ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substitute | me.jjolano.hkmodule.ellekit
+Depends: zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, ldid, com.opa334.libsandy, com.rpetrich.rocketbootstrap | cm90.crossoveripc, mterminal (>= 1.5-2), preferenceloader, ws.hbang.common
+Conflicts: firmware (<< 15.0), firmware (>= 16.0), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
+Filename: ./debs/com.kids.utilities_25.07.18~rootfull_iphoneos-arm.deb
+Size: 564372
+MD5sum: 5f842c4cc7d4e465aa51fc835d955dd6
+SHA1: 0063d661840b644699ce544d0ac3cb1451e8095f
+SHA256: 4d65e760142723a37a8e1597e9798b9142dad56f2f0f67bf2ef423048ba330b5
 Section: Utilities
 Description: An application & preferences configs!
 Tag: role::developer compatible::ios15
@@ -237,27 +275,6 @@ Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
 Dev: rpetrich
 Name: RocketBootstrap
 
-Package: com.rpetrich.rocketbootstrap
-Version: 1.1.0~rootless
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Installed-Size: 552
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/com.rpetrich.rocketbootstrap_1.1.0~rootless_iphoneos-arm64.deb
-Size: 40168
-MD5sum: 08fa9fed8c61426b5b9ae5d77f28ac77
-SHA1: 976fc8155bac6b7d05556a1485011926be77432a
-SHA256: 3af03342cdd3c25a4db9b1f53eaf626a8e3c5c5078168dd4126c3954353e0ed3
-Section: Tweaks
-Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
-Description: Support library allowing tweaks to communicate with sandboxed processes
-Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
-Depiction: https://repo.cypwn.xyz/depiction/1854
-Dev: rpetrich
-Name: RocketBootstrap
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1854
-Sponsor: thebigboss.org <http://thebigboss.org>
-
 Package: com.saurik.substrate.safemode
 Version: 0.9.6005
 Architecture: iphoneos-arm
@@ -277,24 +294,6 @@ Description: safe mode safety extension (safe)
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
 Name: Substrate Safe Mode
-
-Package: me.alexia.rocketbootstrapfix
-Version: 0.1.2
-Architecture: iphoneos-arm64
-Maintainer: Luna <luna@alexia.lol>
-Installed-Size: 4
-Depends: bsdiff, com.rpetrich.rocketbootstrap (= 1.0.10~beta1), coreutils, ldid (>= 2.1.5-procursus7)
-Filename: ./debs/me.alexia.rocketbootstrapfix_0.1.2_iphoneos-arm64.deb
-Size: 1940
-MD5sum: 1234d72613e499e4d93e31e8a1090b7d
-SHA1: 0f8701bf596559919e6e5ef05a374344f265af45
-SHA256: 7761f080cfba4142c2c70ea8fc78b8509f1430421795da832cbb29f73e3cccf2
-Section: System
-Description: Fix RocketBootstrap on iOS 15+
-Author: Luna <luna@alexia.lol>
-Depiction: https://repo.alexia.lol/depictions/me.alexia.rocketbootstrapfix
-Name: RocketBootstrapFix
-Sileodepiction: https://repo.alexia.lol/sileo-depictions/me.alexia.rocketbootstrapfix.json
 
 Package: me.jjolano.fmwk.hookkit
 Version: 1.0.16~13.7
