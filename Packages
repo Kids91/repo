@@ -131,18 +131,18 @@ Depiction: https://t.me/Life6868
 Name: Kids Utilities
 
 Package: com.kids.utilities
-Version: 25.07.19~rootfull
+Version: 25.07.19-1~rootfull
 Architecture: iphoneos-arm
 Maintainer: Kids91
 Installed-Size: 2864
 Pre-Depends: firmware (>= 15.0), firmware (<< 16.0), com.ex.substitute | ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substitute | me.jjolano.hkmodule.ellekit
 Depends: zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, ldid, com.opa334.libsandy, cm90.crossoveripc | com.rpetrich.rocketbootstrap, mterminal (>= 1.5-2), preferenceloader, ws.hbang.common
 Conflicts: firmware (<< 15.0), firmware (>= 16.0), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
-Filename: ./debs/com.kids.utilities_25.07.19~rootfull_iphoneos-arm.deb
-Size: 564938
-MD5sum: 20b7cb93707756a9a53c3645bfe5423b
-SHA1: 6422e65d8144788032f81a89ebdd57326c453e15
-SHA256: 0b8a82ddecf696f974cec2192d90def2a765eccfdeb62612acaf0dc4fe71615d
+Filename: ./debs/com.kids.utilities_25.07.19-1~rootfull_iphoneos-arm.deb
+Size: 565122
+MD5sum: 80e617d0674b56055d2a235f740ea648
+SHA1: 2000bcfcd060d21a4cadeaa8ff29086cdbf3ca97
+SHA256: affb5895fc93b29fbc7e2369a373c65a97c564cd9cc7ef9ce4e94f476b5d7a0c
 Section: Utilities
 Description: An application & preferences configs!
 Tag: role::developer compatible::ios15
