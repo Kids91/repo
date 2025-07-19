@@ -158,10 +158,10 @@ Installed-Size: 7832
 Depends: ellekit, cm90.crossoveripc
 Conflicts: firmware (<< 15.0), com.kidsautopro.kidsauto
 Filename: ./debs/com.kids91.kidschanger_25.07.19_iphoneos-arm.deb
-Size: 1284586
-MD5sum: d064f179be92a98466c02f1935ea73ad
-SHA1: 6200714464bd18094489c11fa70b780f84a4a1a4
-SHA256: 8b251d3c254f292fe80c1336b7d9508c7ee8ec51d56416d924c374a5388da070
+Size: 1284388
+MD5sum: 2d4fa0822179844ded94e3dda6057d5a
+SHA1: aa835aa9b49e125324bc7d5d20b0300768e1007c
+SHA256: d7e2941fad377f2eee283c2a5a85bac82fd1d535e58ce64061207a8aa2c07e5a
 Section: Tweaks
 Description: Kids iOS Changer, Support from version 15.x
 Tag: role::hacker, purpose::extension, compatible::ios15
