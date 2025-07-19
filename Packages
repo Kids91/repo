@@ -154,14 +154,14 @@ Package: com.kids91.kidschanger
 Version: 25.07.19
 Architecture: iphoneos-arm
 Maintainer: Kids91 - Cường Trần <https://t.me/Life6868>
-Installed-Size: 7832
+Installed-Size: 7732
 Depends: ellekit, cm90.crossoveripc
 Conflicts: firmware (<< 15.0), com.kidsautopro.kidsauto
-Filename: ./debs/com.kids91.kidschanger_25.07.19_iphoneos-arm.deb
-Size: 1284388
-MD5sum: 2d4fa0822179844ded94e3dda6057d5a
-SHA1: aa835aa9b49e125324bc7d5d20b0300768e1007c
-SHA256: d7e2941fad377f2eee283c2a5a85bac82fd1d535e58ce64061207a8aa2c07e5a
+Filename: ./debs/com.kids91.kidschanger_25.07.19-1_iphoneos-arm.deb
+Size: 1249346
+MD5sum: 9a6912bf6bf92a27572455d2a665a5c2
+SHA1: a17258a7ef556e3253e6b5d3655d4d0fa1569c93
+SHA256: 4ce3e09804f14317491c97664a221c1e5ebeb8d9ad219125e5a4a7728af08306
 Section: Tweaks
 Description: Kids iOS Changer, Support from version 15.x
 Tag: role::hacker, purpose::extension, compatible::ios15
