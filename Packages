@@ -91,26 +91,6 @@ Depiction: https://t.me/Life6868
 Name: Kids Utilities
 
 Package: com.kids.utilities
-Version: 25.06.27~rootfull
-Architecture: iphoneos-arm
-Maintainer: Kids91
-Installed-Size: 2864
-Pre-Depends: firmware (>= 15.0), firmware (<< 16.0), com.ex.substitute, com.saurik.substrate.safemode (>= 0.9.6005), me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substitute
-Depends: zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, ldid, com.opa334.libsandy, org.coolstar.libhooker (>= 0.0.1.1), com.rpetrich.rocketbootstrap, mterminal (>= 1.5-2), preferenceloader, ws.hbang.common
-Conflicts: firmware (<< 15.0), firmware (>= 16.0), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
-Filename: ./debs/com.kids.utilities_25.06.27~rootfull_iphoneos-arm.deb
-Size: 564982
-MD5sum: a3ad5bb47c2a9b61d54e6e4109f214dd
-SHA1: 9a11ea1aeefeef28882a68eda52fef322aa945d2
-SHA256: 2b54c752d3b237de13246341dc56129b04b49b2f1422326a56ad5180ebaf2c28
-Section: Utilities
-Description: An application & preferences configs!
-Tag: role::developer compatible::ios15
-Author: Kids91 <https://t.me/Life6868>
-Depiction: https://t.me/Life6868
-Name: Kids Utilities
-
-Package: com.kids.utilities
 Version: 25.06.27~rootless
 Architecture: iphoneos-arm64
 Maintainer: Kids91
@@ -143,6 +123,26 @@ Size: 564260
 MD5sum: e850473f75e49abeaaa674e300d5214f
 SHA1: e18de6045f9c72dbdcdab175fef07440b1b643a4
 SHA256: 6767c2e21952aeb4641dcfe04c5513aa207e32283a80f49477feaa3b37833fad
+Section: Utilities
+Description: An application & preferences configs!
+Tag: role::developer compatible::ios15
+Author: Kids91 <https://t.me/Life6868>
+Depiction: https://t.me/Life6868
+Name: Kids Utilities
+
+Package: com.kids.utilities
+Version: 25.07.19~rootfull
+Architecture: iphoneos-arm
+Maintainer: Kids91
+Installed-Size: 2864
+Pre-Depends: firmware (>= 15.0), firmware (<< 16.0), com.ex.substitute | ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substitute | me.jjolano.hkmodule.ellekit
+Depends: zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, ldid, com.opa334.libsandy, cm90.crossoveripc | com.rpetrich.rocketbootstrap, mterminal (>= 1.5-2), preferenceloader, ws.hbang.common
+Conflicts: firmware (<< 15.0), firmware (>= 16.0), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
+Filename: ./debs/com.kids.utilities_25.07.19~rootfull_iphoneos-arm.deb
+Size: 564938
+MD5sum: 20b7cb93707756a9a53c3645bfe5423b
+SHA1: 6422e65d8144788032f81a89ebdd57326c453e15
+SHA256: 0b8a82ddecf696f974cec2192d90def2a765eccfdeb62612acaf0dc4fe71615d
 Section: Utilities
 Description: An application & preferences configs!
 Tag: role::developer compatible::ios15
