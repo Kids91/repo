@@ -150,25 +150,24 @@ Author: Kids91 <https://t.me/Life6868>
 Depiction: https://t.me/Life6868
 Name: Kids Utilities
 
-Package: com.kids.utilities
-Version: 25.07.18~rootfull
+Package: com.kids91.kidschanger
+Version: 25.07.19
 Architecture: iphoneos-arm
-Maintainer: Kids91
-Installed-Size: 2864
-Pre-Depends: firmware (>= 15.0), firmware (<< 16.0), com.ex.substitute | ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substitute | me.jjolano.hkmodule.ellekit
-Depends: zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, ldid, com.opa334.libsandy, com.rpetrich.rocketbootstrap | cm90.crossoveripc, mterminal (>= 1.5-2), preferenceloader, ws.hbang.common
-Conflicts: firmware (<< 15.0), firmware (>= 16.0), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
-Filename: ./debs/com.kids.utilities_25.07.18~rootfull_iphoneos-arm.deb
-Size: 564372
-MD5sum: 5f842c4cc7d4e465aa51fc835d955dd6
-SHA1: 0063d661840b644699ce544d0ac3cb1451e8095f
-SHA256: 4d65e760142723a37a8e1597e9798b9142dad56f2f0f67bf2ef423048ba330b5
-Section: Utilities
-Description: An application & preferences configs!
-Tag: role::developer compatible::ios15
-Author: Kids91 <https://t.me/Life6868>
-Depiction: https://t.me/Life6868
-Name: Kids Utilities
+Maintainer: Kids91 - Cường Trần <https://t.me/Life6868>
+Installed-Size: 7832
+Depends: ellekit, cm90.crossoveripc
+Conflicts: firmware (<< 15.0), com.kidsautopro.kidsauto
+Filename: ./debs/com.kids91.kidschanger_25.07.19_iphoneos-arm.deb
+Size: 1282838
+MD5sum: baed632709f22a04ae2a789dd0f91d6c
+SHA1: ded38790d0962229014d4f27b39ca0a458336490
+SHA256: 32e152ac7941d8de42af9d65f122e67c6746906f2031ecd0fc1042a8adf530b4
+Section: Tweaks
+Description: Kids iOS Changer, Support from version 15.x
+Tag: role::hacker, purpose::extension, compatible::ios15
+Author: Kids91 - Cường Trần <https://t.me/Life6868>
+Depiction: Dev by Kids91 - Cường Trần https://t.me/Life6868
+Name: Kids iOS Changer v4
 
 Package: com.muirey03.cr4shed
 Version: 4.3.0
