@@ -150,6 +150,25 @@ Author: Kids91 <https://t.me/Life6868>
 Depiction: https://t.me/Life6868
 Name: Kids Utilities
 
+Package: com.kids91.kidschanger
+Version: 25.07.21-1
+Architecture: iphoneos-arm
+Maintainer: Kids91 - Cường Trần <https://t.me/Life6868>
+Installed-Size: 7732
+Depends: ellekit, cm90.crossoveripc
+Conflicts: firmware (<< 15.0), com.kidsautopro.kidsauto
+Filename: ./debs/com.kids91.kidschanger_25.07.21-1_iphoneos-arm.deb
+Size: 1253226
+MD5sum: f7d946b96e762ff54747769a3ad82376
+SHA1: 982147252ccd46a27bdece1ace924d1bab6ca645
+SHA256: dec704709993d8e66beed4236bae82e1c50a51d0b62006548c56b60be3b40842
+Section: Tweaks
+Description: Kids iOS Changer, Support from version 15.x
+Tag: role::hacker, purpose::extension, compatible::ios15
+Author: Kids91 - Cường Trần <https://t.me/Life6868>
+Depiction: Dev by Kids91 - Cường Trần https://t.me/Life6868
+Name: Kids iOS Changer v4
+
 Package: com.muirey03.cr4shed
 Version: 4.3.0
 Architecture: iphoneos-arm
