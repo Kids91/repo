@@ -131,26 +131,6 @@ Depiction: https://t.me/Life6868
 Name: Kids Utilities
 
 Package: com.kids.utilities
-Version: 25.07.22-1~rootfull
-Architecture: iphoneos-arm
-Maintainer: Kids91
-Installed-Size: 2864
-Pre-Depends: firmware (>= 15.0), firmware (<< 16.0), ellekit | com.ex.substitute, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit | me.jjolano.hkmodule.substitute
-Depends: zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, ldid, com.opa334.libsandy, cm90.crossoveripc | com.rpetrich.rocketbootstrap, mterminal (>= 1.5-2), preferenceloader, ws.hbang.common
-Conflicts: firmware (<< 15.0), firmware (>= 16.0), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
-Filename: ./debs/com.kids.utilities_25.07.22-1~rootfull_iphoneos-arm.deb
-Size: 567674
-MD5sum: d72f5d25ff3fddca0b85a856167e19aa
-SHA1: fd845ea3bff6fcc5e2eed9d6c49add606917139b
-SHA256: e02edadbb04ee5a9e1dee6fe297435d9b9ce7d1f6ca188cabdb6292b4223736d
-Section: Utilities
-Description: An application & preferences configs!
-Tag: role::developer compatible::ios15
-Author: Kids91 <https://t.me/Life6868>
-Depiction: https://t.me/Life6868
-Name: Kids Utilities
-
-Package: com.kids.utilities
 Version: 25.07.22-2~rootfull
 Architecture: iphoneos-arm
 Maintainer: Kids91
@@ -169,6 +149,25 @@ Tag: role::developer compatible::ios15
 Author: Kids91 <https://t.me/Life6868>
 Depiction: https://t.me/Life6868
 Name: Kids Utilities
+
+Package: com.kids91.kidschanger
+Version: 25.07.22-2
+Architecture: iphoneos-arm
+Maintainer: Kids91 - Cường Trần <https://t.me/Life6868>
+Installed-Size: 7732
+Depends: ellekit, cm90.crossoveripc
+Conflicts: firmware (<< 15.0), com.kidsautopro.kidsauto
+Filename: ./debs/com.kids91.kidschanger_25.07.22-2_iphoneos-arm.deb
+Size: 1252994
+MD5sum: 3d4c7343adcac0ef9f5be6b75817dfa8
+SHA1: aaf1521df15f385d9e287f91da0aeba33bb2a649
+SHA256: ff0419a4069116b5fd93cea9da82c75e3a81476c364c53b674c859a861c982d8
+Section: Tweaks
+Description: Kids iOS Changer, Support from version 15.x
+Tag: role::hacker, purpose::extension, compatible::ios15
+Author: Kids91 - Cường Trần <https://t.me/Life6868>
+Depiction: Dev by Kids91 - Cường Trần https://t.me/Life6868
+Name: Kids iOS Changer v4
 
 Package: com.muirey03.cr4shed
 Version: 4.3.0
