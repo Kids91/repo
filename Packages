@@ -150,6 +150,26 @@ Author: Kids91 <https://t.me/Life6868>
 Depiction: https://t.me/Life6868
 Name: Kids Utilities
 
+Package: com.kids.utilities
+Version: 25.07.22-2~rootfull
+Architecture: iphoneos-arm
+Maintainer: Kids91
+Installed-Size: 2864
+Pre-Depends: firmware (>= 15.0), firmware (<< 16.0), ellekit | com.ex.substitute, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit | me.jjolano.hkmodule.substitute
+Depends: zip, unzip, gzip, rsync, socat, sqlite3, openssh, openssl, ldid, com.opa334.libsandy, cm90.crossoveripc | com.rpetrich.rocketbootstrap, mterminal (>= 1.5-2), preferenceloader, ws.hbang.common
+Conflicts: firmware (<< 15.0), firmware (>= 16.0), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
+Filename: ./debs/com.kids.utilities_25.07.22-2~rootfull_iphoneos-arm.deb
+Size: 568572
+MD5sum: 55bdade7a2e99232ff5766d4d1a2f86d
+SHA1: fad8a0686c6df760229a3d7360eac84121b569d4
+SHA256: 85d947a517160d3dda3683585b51649d0fa8a1dc7f577c03e194b41ac366ef6d
+Section: Utilities
+Description: An application & preferences configs!
+Tag: role::developer compatible::ios15
+Author: Kids91 <https://t.me/Life6868>
+Depiction: https://t.me/Life6868
+Name: Kids Utilities
+
 Package: com.muirey03.cr4shed
 Version: 4.3.0
 Architecture: iphoneos-arm
