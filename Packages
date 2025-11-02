@@ -147,18 +147,18 @@ Depiction: https://t.me/Life6868
 Name: Kids Utilities
 
 Package: com.kids.utilities
-Version: 25.11.21-21+roothide
+Version: 25.11.21+roothide
 Architecture: iphoneos-arm64e
 Maintainer: Kids91
-Installed-Size: 5460
+Installed-Size: 2856
 Pre-Depends: firmware (>= 15.0), ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit
 Depends: zip, unzip, gzip, rsync, sqlite3, openssh, openssl, ldid, com.opa334.libsandy, cm90.crossoveripc, mterminal (>= 1.5-2) | ws.hbang.newterm3, preferenceloader, ws.hbang.common
 Conflicts: firmware (<< 15.0), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
-Filename: ./debs/com.kids.utilities_25.11.21-21+roothide_iphoneos-arm64e.deb
-Size: 1075206
-MD5sum: ff3dd57951f148b02a04bec04b34bdaf
-SHA1: 3b6c47aaff18984b10e954c5981b810a8b5593b5
-SHA256: a1548602aaeb378292aec0b7832687f53c312cc7d65372915eadcc4b79a47158
+Filename: ./debs/com.kids.utilities_25.11.21+roothide_iphoneos-arm64e.deb
+Size: 570196
+MD5sum: a74b61f9366f12a69c112290aa2d50c6
+SHA1: f1ef0fea1f72e96ceba9e5179395ae03b2aa8750
+SHA256: a0418bad4fc8c61dca81ccbe2c74dedf81e44eae608cdf55bc63568d1f3b0e79
 Section: Utilities
 Description: An application & preferences configs!
 Tag: role::developer compatible::ios15, compatible::ios16, compatible::ios17
