@@ -191,17 +191,17 @@ Version: 25.11.22+rootfull
 Architecture: iphoneos-arm
 Maintainer: Kids91
 Installed-Size: 2860
-Pre-Depends: firmware (>= 14.0), ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit
-Depends: JetsamCTL, zip, unzip, gzip, rsync, sqlite3, openssh, openssl, ldid, com.opa334.libsandy, cm90.crossoveripc, preferenceloader, ws.hbang.common
-Conflicts: firmware (<< 14.0), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
+Pre-Depends: firmware (>= 14.0), firmware (<< 15.0), ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit
+Depends: com.simpzan.jetsamctl, zip, unzip, gzip, rsync, sqlite3, openssh, openssl, ldid, com.opa334.libsandy, cm90.crossoveripc, preferenceloader, ws.hbang.common
+Conflicts: firmware (<< 14.0), firmware (>> 15.0), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
 Filename: ./debs/com.kids.utilities_25.11.22+rootfull_iphoneos-arm.deb
-Size: 565612
-MD5sum: 97849219b8e63c744144efd5fefd738b
-SHA1: 7466b3fb5c980dc8d7340940445a045db48f24d2
-SHA256: e1ad2a70c80a42fd1674d526a0f7897b782e96a1fc19dbe3fecd45260d29a4b8
+Size: 565954
+MD5sum: 6c8eb86f9779c3224f89aecfc8344e95
+SHA1: d02bbc6714a2d0166fa7794174283f515ea3077d
+SHA256: abfab34868d773508fb905802c6e65eebf95fbc95453ee64a9439fe4fd909d91
 Section: Utilities
 Description: An application & preferences configs!
-Tag: role::developer compatible::ios14
+Tag: role::developer compatible::ios14, works-best::ios14
 Author: Kids91 <https://t.me/Life6868>
 Depiction: https://t.me/Life6868
 Name: Kids Utilities
