@@ -147,26 +147,6 @@ Depiction: https://t.me/Life6868
 Name: Kids Utilities
 
 Package: com.kids.utilities
-Version: 25.11.21+rootfull
-Architecture: iphoneos-arm
-Maintainer: Kids91
-Installed-Size: 2860
-Pre-Depends: firmware (>= 14.0), ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit
-Depends: zip, unzip, gzip, rsync, sqlite3, openssh, openssl, ldid, com.opa334.libsandy, cm90.crossoveripc, preferenceloader, ws.hbang.common
-Conflicts: firmware (<< 14.0), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
-Filename: ./debs/com.kids.utilities_25.11.21+rootfull_iphoneos-arm.deb
-Size: 565468
-MD5sum: 64a214c137ded17f8ab4b19c8cf29db5
-SHA1: 65225bee1f2304a2ceb061f18dd81a2430d0fe76
-SHA256: dedb9384b415a0d1c202c851a0b3e1944d0fd8503faae9ea24c7e9bc140b710c
-Section: Utilities
-Description: An application & preferences configs!
-Tag: role::developer compatible::ios15, compatible::ios16, compatible::ios17
-Author: Kids91 <https://t.me/Life6868>
-Depiction: https://t.me/Life6868
-Name: Kids Utilities
-
-Package: com.kids.utilities
 Version: 25.11.21+roothide
 Architecture: iphoneos-arm64e
 Maintainer: Kids91
@@ -202,6 +182,26 @@ SHA256: c329ca76b6e87800a58f8534894e8e02c72683b9e0cb920bede4eca4fa7af411
 Section: Utilities
 Description: An application & preferences configs!
 Tag: role::developer compatible::ios15, compatible::ios16, compatible::ios17
+Author: Kids91 <https://t.me/Life6868>
+Depiction: https://t.me/Life6868
+Name: Kids Utilities
+
+Package: com.kids.utilities
+Version: 25.11.22+rootfull
+Architecture: iphoneos-arm
+Maintainer: Kids91
+Installed-Size: 2860
+Pre-Depends: firmware (>= 14.0), ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit
+Depends: JetsamCTL, zip, unzip, gzip, rsync, sqlite3, openssh, openssl, ldid, com.opa334.libsandy, cm90.crossoveripc, preferenceloader, ws.hbang.common
+Conflicts: firmware (<< 14.0), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
+Filename: ./debs/com.kids.utilities_25.11.22+rootfull_iphoneos-arm.deb
+Size: 565612
+MD5sum: 97849219b8e63c744144efd5fefd738b
+SHA1: 7466b3fb5c980dc8d7340940445a045db48f24d2
+SHA256: e1ad2a70c80a42fd1674d526a0f7897b782e96a1fc19dbe3fecd45260d29a4b8
+Section: Utilities
+Description: An application & preferences configs!
+Tag: role::developer compatible::ios14
 Author: Kids91 <https://t.me/Life6868>
 Depiction: https://t.me/Life6868
 Name: Kids Utilities
@@ -330,6 +330,57 @@ Description: safe mode safety extension (safe)
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
 Name: Substrate Safe Mode
+
+Package: com.simpzan.jetsamctl
+Version: 1.0+rootfull
+Architecture: iphoneos-arm
+Maintainer: Samuel Zhang - KidsDev91 (Mod)
+Installed-Size: 172
+Depends: cm90.crossoveripc
+Filename: ./debs/com.simpzan.jetsamctl_1.0+rootfull_iphoneos-arm.deb
+Size: 7856
+MD5sum: 194c4a15b07b472f0b884c8e35f3ef17
+SHA1: 6c1900c2342d354406fce8dc907ec2f47124571f
+SHA256: 6cd3ec0f0587bf17751abd24782f2069cb4076dd4851091ed8f0c1d7311528b9
+Section: System
+Description: a command line tool and on-demand service to set/get jetsam limit.
+Tag: role::hacker
+Author: Samuel Zhang - KidsDev91 (Mod)
+Name: JetsamCTL
+
+Package: com.simpzan.jetsamctl
+Version: 1.0+roothide
+Architecture: iphoneos-arm64e
+Maintainer: Samuel Zhang - KidsDev91 (Mod)
+Installed-Size: 172
+Depends: cm90.crossoveripc
+Filename: ./debs/com.simpzan.jetsamctl_1.0+roothide_iphoneos-arm64e.deb
+Size: 7854
+MD5sum: d424737a33f1022fbd1ca86b6d190282
+SHA1: 9c9a7421a7811976443ff7c6af439d673d924718
+SHA256: ebab9d844712dbbef0fb6e33b38b4ee38e1833ba03d9dfb575dbf8fdd6787a78
+Section: System
+Description: a command line tool and on-demand service to set/get jetsam limit.
+Tag: role::hacker
+Author: Samuel Zhang - KidsDev91 (Mod)
+Name: JetsamCTL
+
+Package: com.simpzan.jetsamctl
+Version: 1.0+rootless
+Architecture: iphoneos-arm64
+Maintainer: Samuel Zhang - KidsDev91 (Mod)
+Installed-Size: 172
+Depends: cm90.crossoveripc
+Filename: ./debs/com.simpzan.jetsamctl_1.0+rootless_iphoneos-arm64.deb
+Size: 7910
+MD5sum: 6e6066a1647291eab69167523552f280
+SHA1: bbde26292caed47a47966b2596c23ba923fa8849
+SHA256: 6c72168d8155f72ae8ac8848d3be008ea60e478458d6c15b43a2c71efdda0973
+Section: System
+Description: a command line tool and on-demand service to set/get jetsam limit.
+Tag: role::hacker
+Author: Samuel Zhang - KidsDev91 (Mod)
+Name: JetsamCTL
 
 Package: me.jjolano.fmwk.hookkit
 Version: 1.0.16~13.7
