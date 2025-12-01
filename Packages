@@ -352,16 +352,16 @@ Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
 Name: Substrate Safe Mode
 
 Package: com.simpzan.jetsamctl
-Version: 1.1+rootfull
+Version: 1.2+rootfull
 Architecture: iphoneos-arm
 Maintainer: Samuel Zhang - KidsDev91 (Mod)
 Installed-Size: 172
 Depends: cm90.crossoveripc
-Filename: ./debs/com.simpzan.jetsamctl_1.1+rootfull_iphoneos-arm.deb
-Size: 7786
-MD5sum: c76f5354810fb6aa4f15470b6e8ba496
-SHA1: 99612018c46d21b958f452df9b2ed764c651e064
-SHA256: 737667cadce27c2a4054716aa828759466712e0d90b5a13fb727590c14bd712b
+Filename: ./debs/com.simpzan.jetsamctl_1.2+rootfull_iphoneos-arm.deb
+Size: 7390
+MD5sum: 284093bb8765c51edd33d4c33e9beabf
+SHA1: 6fc9b056f51d51f934faf703dfec7ac474285d95
+SHA256: 9a639ed48a61853e10c85efe1029a2c43bf57d101d6cca4aa20840cb9fa98d81
 Section: System
 Description: a command line tool and on-demand service to set/get jetsam limit.
 Tag: role::hacker
@@ -369,16 +369,16 @@ Author: Samuel Zhang - KidsDev91 (Mod)
 Name: JetsamCTL
 
 Package: com.simpzan.jetsamctl
-Version: 1.1+roothide
+Version: 1.2+roothide
 Architecture: iphoneos-arm64e
 Maintainer: Samuel Zhang - KidsDev91 (Mod)
 Installed-Size: 172
 Depends: cm90.crossoveripc
-Filename: ./debs/com.simpzan.jetsamctl_1.1+roothide_iphoneos-arm64e.deb
-Size: 7786
-MD5sum: ae185647343ff92a4d248561faa054da
-SHA1: 41b7d396b9f5add2bef71c7fcb9525fda6153718
-SHA256: 7a7b66ac3e760a2a2f98272828c4329d2b909ae6ab792f8e53b1596044b41e58
+Filename: ./debs/com.simpzan.jetsamctl_1.2+roothide_iphoneos-arm64e.deb
+Size: 7412
+MD5sum: f622ca272a3b2baadee505f9551ee9eb
+SHA1: 772e1f5dd2138e1e33beafdaf9bdfa8ebda06a3b
+SHA256: 6fbc8def7e3b04e3729ea7b972d2c14debd20f2e15348d3c92bdccb1350057c2
 Section: System
 Description: a command line tool and on-demand service to set/get jetsam limit.
 Tag: role::hacker
@@ -386,16 +386,16 @@ Author: Samuel Zhang - KidsDev91 (Mod)
 Name: JetsamCTL
 
 Package: com.simpzan.jetsamctl
-Version: 1.1+rootless
+Version: 1.2+rootless
 Architecture: iphoneos-arm64
 Maintainer: Samuel Zhang - KidsDev91 (Mod)
 Installed-Size: 172
 Depends: cm90.crossoveripc
-Filename: ./debs/com.simpzan.jetsamctl_1.1+rootless_iphoneos-arm64.deb
-Size: 7846
-MD5sum: 93e5eabdda423879b29a606b09a40130
-SHA1: e12dfe84853b0c7eae7e08c546619971c2ef6368
-SHA256: a9b1a3711b332c7e2f85cf567202aea850783e676ee75aa194bd9b571ca67ec6
+Filename: ./debs/com.simpzan.jetsamctl_1.2+rootless_iphoneos-arm64.deb
+Size: 7458
+MD5sum: 62de9c75ff7a9d1f59b1cd0c91814f6d
+SHA1: c00c1aa8547751bba42f6c8e15819561e57c841b
+SHA256: 458560efac4015e1f45fae508af1168424ec1ecc0698aea78de177809f3aa77f
 Section: System
 Description: a command line tool and on-demand service to set/get jetsam limit.
 Tag: role::hacker
