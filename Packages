@@ -352,54 +352,54 @@ Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
 Name: Substrate Safe Mode
 
 Package: com.simpzan.jetsamctl
-Version: 1.2+rootfull
+Version: 1.3+rootfull
 Architecture: iphoneos-arm
-Maintainer: Samuel Zhang - KidsDev91 (Mod)
+Maintainer: Samuel Zhang - KidsDev91 (Re-Mod)
 Installed-Size: 172
 Depends: cm90.crossoveripc
-Filename: ./debs/com.simpzan.jetsamctl_1.2+rootfull_iphoneos-arm.deb
-Size: 7390
-MD5sum: 284093bb8765c51edd33d4c33e9beabf
-SHA1: 6fc9b056f51d51f934faf703dfec7ac474285d95
-SHA256: 9a639ed48a61853e10c85efe1029a2c43bf57d101d6cca4aa20840cb9fa98d81
+Filename: ./debs/com.simpzan.jetsamctl_1.3+rootfull_iphoneos-arm.deb
+Size: 7364
+MD5sum: d4cd0923ea29d3b1f11916e4ed5686ae
+SHA1: e41f19eefa51089d56f6d91a457d20071d922131
+SHA256: 578897d89ed6a8c2d089f069d8c523d7e67ae5f1b330109c1c95ff530af4bbca
 Section: System
 Description: a command line tool and on-demand service to set/get jetsam limit.
 Tag: role::hacker
-Author: Samuel Zhang - KidsDev91 (Mod)
+Author: Samuel Zhang - KidsDev91 (Re-Mod)
 Name: JetsamCTL
 
 Package: com.simpzan.jetsamctl
-Version: 1.2+roothide
+Version: 1.3+roothide
 Architecture: iphoneos-arm64e
-Maintainer: Samuel Zhang - KidsDev91 (Mod)
+Maintainer: Samuel Zhang - KidsDev91 (Re-Mod)
 Installed-Size: 172
 Depends: cm90.crossoveripc
-Filename: ./debs/com.simpzan.jetsamctl_1.2+roothide_iphoneos-arm64e.deb
-Size: 7412
-MD5sum: f622ca272a3b2baadee505f9551ee9eb
-SHA1: 772e1f5dd2138e1e33beafdaf9bdfa8ebda06a3b
-SHA256: 6fbc8def7e3b04e3729ea7b972d2c14debd20f2e15348d3c92bdccb1350057c2
+Filename: ./debs/com.simpzan.jetsamctl_1.3+roothide_iphoneos-arm64e.deb
+Size: 7370
+MD5sum: c8680280c1ba9fd5917b18ae939ce11a
+SHA1: c9f7b0b3dcf1c24f0760488587093a46ed37f9e3
+SHA256: b8641afe0e48f6a420daa43905df087cd28354d1eef2d114ce98c1b574525819
 Section: System
 Description: a command line tool and on-demand service to set/get jetsam limit.
 Tag: role::hacker
-Author: Samuel Zhang - KidsDev91 (Mod)
+Author: Samuel Zhang - KidsDev91 (Re-Mod)
 Name: JetsamCTL
 
 Package: com.simpzan.jetsamctl
-Version: 1.2+rootless
+Version: 1.3+rootless
 Architecture: iphoneos-arm64
-Maintainer: Samuel Zhang - KidsDev91 (Mod)
+Maintainer: Samuel Zhang - KidsDev91 (Re-Mod)
 Installed-Size: 172
 Depends: cm90.crossoveripc
-Filename: ./debs/com.simpzan.jetsamctl_1.2+rootless_iphoneos-arm64.deb
-Size: 7458
-MD5sum: 62de9c75ff7a9d1f59b1cd0c91814f6d
-SHA1: c00c1aa8547751bba42f6c8e15819561e57c841b
-SHA256: 458560efac4015e1f45fae508af1168424ec1ecc0698aea78de177809f3aa77f
+Filename: ./debs/com.simpzan.jetsamctl_1.3+rootless_iphoneos-arm64.deb
+Size: 7438
+MD5sum: 279ccff0ee7d0376c15af5603e8f7864
+SHA1: 0a2380a5a881edefb3cbdb7ee5304a98cfe8e741
+SHA256: d20e3916c64fd04e71df7a6fb49e8a514b2bca63a3bb0a5843c4e94743fef596
 Section: System
 Description: a command line tool and on-demand service to set/get jetsam limit.
 Tag: role::hacker
-Author: Samuel Zhang - KidsDev91 (Mod)
+Author: Samuel Zhang - KidsDev91 (Re-Mod)
 Name: JetsamCTL
 
 Package: me.jjolano.fmwk.hookkit
