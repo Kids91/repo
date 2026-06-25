@@ -86,6 +86,63 @@ Description: Substrate substitute for code substitution
 Author: comex <comexk+da@gmail.com>
 Name: Substitute
 
+Package: com.iosapp.kidschanger
+Version: 4.0.1+rootfull
+Architecture: iphoneos-arm
+Maintainer: KidsDev91 <https://t.me/Life6868>
+Installed-Size: 656
+Pre-Depends: firmware (>= 13.4), ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit
+Depends: zip, unzip, gzip, rsync, sqlite3, openssh, openssl, ldid, com.opa334.libsandy, cm90.crossoveripc, com.simpzan.jetsamctl, preferenceloader, ws.hbang.common
+Conflicts: firmware (<< 13.4), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
+Filename: ./debs/com.iosapp.kidschanger_4.0.1+rootfull_iphoneos-arm.deb
+Size: 250282
+MD5sum: 62497933c34609654d6916270215f787
+SHA1: 9693b380241cd37fda591300a5e343eff2363851
+SHA256: 5661e284d0a864ea7ce8ba3393a8acd121881e09ee377a2143b461f2bec0dcb3
+Section: Utilities
+Description: iOS app changer control with KidsAutov4
+Tag: role::developer compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16
+Author: KidsDev91
+Name: iOS Kids Changer
+
+Package: com.iosapp.kidschanger
+Version: 4.0.1+roothide
+Architecture: iphoneos-arm64e
+Maintainer: KidsDev91 <https://t.me/Life6868>
+Installed-Size: 656
+Pre-Depends: firmware (>= 13.4), ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit
+Depends: zip, unzip, gzip, rsync, sqlite3, openssh, openssl, ldid, com.opa334.libsandy, cm90.crossoveripc, com.simpzan.jetsamctl, preferenceloader, ws.hbang.common
+Conflicts: firmware (<< 13.4), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
+Filename: ./debs/com.iosapp.kidschanger_4.0.1+roothide_iphoneos-arm64e.deb
+Size: 250474
+MD5sum: e7fe88f846a56b5dfb6c827bd9b487f6
+SHA1: 55b8eddcac03e6f62e95b1544ac18a833a81f834
+SHA256: 269f1d7008a814febe89435be4710619875cdeb7058c181ddfb28ab6829160e3
+Section: Utilities
+Description: iOS app changer control with KidsAutov4
+Tag: role::developer compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16
+Author: KidsDev91
+Name: iOS Kids Changer
+
+Package: com.iosapp.kidschanger
+Version: 4.0.1+rootless
+Architecture: iphoneos-arm64
+Maintainer: KidsDev91 <https://t.me/Life6868>
+Installed-Size: 656
+Pre-Depends: firmware (>= 13.4), ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit
+Depends: zip, unzip, gzip, rsync, sqlite3, openssh, openssl, ldid, com.opa334.libsandy, cm90.crossoveripc, com.simpzan.jetsamctl, preferenceloader, ws.hbang.common
+Conflicts: firmware (<< 13.4), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting
+Filename: ./debs/com.iosapp.kidschanger_4.0.1+rootless_iphoneos-arm64.deb
+Size: 250290
+MD5sum: 8902410bd48f873d7ab530b11acff8d9
+SHA1: 9e08dc0d228eac4037e0543f2b2515728460e3aa
+SHA256: 050eecf9adc314cac76473bbc5d098324e72b6e83004da6b81a30763747af1cb
+Section: Utilities
+Description: iOS app changer control with KidsAutov4
+Tag: role::developer compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16
+Author: KidsDev91
+Name: iOS Kids Changer
+
 Package: com.kids.utilities
 Version: 25.06.27~checkra1n
 Architecture: iphoneos-arm
