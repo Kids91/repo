@@ -3,7 +3,7 @@ Label: KidsDev Repo
 Suite: stable
 Version: 4.0
 Codename: kidsdev
-Architectures: iphoneos-arm iphoneos-arm64
+Architectures: iphoneos-arm
 Components: main
 Description: KidsDev Repository
 Icon: file://CydiaIcon.png
