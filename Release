@@ -7,7 +7,10 @@ Architectures: iphoneos-arm
 Components: main
 Description: KidsDev Repository
 Icon: file://CydiaIcon.png
+Acquire-By-Hash: yes
+
 MD5Sum:
-537c5b3ff27c62fd94fd4507b823cbaa  Packages.gz
+ 841b68a9d0fd797887c93cbd188117b1 8371 Packages.gz
+
 SHA256:
-c0a8a70d26b58dcb3b1268d39f9321bfd84b08d76cd299d3b2d8911d5f925693  Packages.gz
+ 19eba5e6978d0b01c79a3cae364c474355d5b51fdb80f420b3f3001c7b473dc6 8371 Packages.gz
