@@ -2,15 +2,22 @@ Origin: KidsDev Repo
 Label: KidsDev Repo
 Suite: stable
 Version: 4.0
-Codename: kidsdev
-Architectures: iphoneos-arm
+Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: KidsDev Repository
-Icon: file://CydiaIcon.png
-Acquire-By-Hash: yes
+Date: Mon, 10 Aug 2026 02:05:46 +0000
 
 MD5Sum:
- 841b68a9d0fd797887c93cbd188117b1 8371 Packages.gz
+ 7084f8e0565be2be7d1fef68a531cc58 36520 Packages
+ 84acbdf204da95ed76fd26ffaa842a9e 8371 Packages.gz
+ d5e83d3bb5385eb5a3fcde8c55b37490 8050 Packages.bz2
+ 4cf298764c163752d250d4794c052b95 7588 Packages.xz
+ cbbcd81d47790e84592097037a3feee3 7532 Packages.lzma
 
 SHA256:
- 19eba5e6978d0b01c79a3cae364c474355d5b51fdb80f420b3f3001c7b473dc6 8371 Packages.gz
+ 97831e74e9d36aa46d9270b40ba4287efb7e22de787ffff80c51c4b5640d1e03 36520 Packages
+ b3e880bb918d6a13b28727e48e0ab6393265cf39ae920bceb534c7207aeaf2c6 8371 Packages.gz
+ d91f2a3cc83ec0f973fad4fb635fa1a5ae4f579eff00a9e05bfe4b9567a61e31 8050 Packages.bz2
+ 9b3dc34f12703ea61c517b4d0e1b03befe3c8405043cc3bae0924884872aa22b 7588 Packages.xz
+ 96888eb453f647efd0a833c666e3f0e654b959519a7bdaabf2da09395a9c6a6d 7532 Packages.lzma
