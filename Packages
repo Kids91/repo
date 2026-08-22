@@ -87,18 +87,18 @@ Author: comex <comexk+da@gmail.com>
 Name: Substitute
 
 Package: com.iosapp.kidschanger
-Version: 4.1.1+rootfull
+Version: 4.1.2+rootfull
 Architecture: iphoneos-arm
 Maintainer: KidsDev91 <https://t.me/Life6868>
 Installed-Size: 1596
 Pre-Depends: firmware (>= 13.4), ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit
 Depends: zip, unzip, gzip, rsync, sqlite3, openssh, openssl, ldid, com.opa334.libsandy, cm90.crossoveripc, com.simpzan.jetsamctl, preferenceloader, ws.hbang.common
 Conflicts: firmware (<< 13.4), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting, com.kids.utilities
-Filename: ./debs/com.iosapp.kidschanger_4.1.1+rootfull_iphoneos-arm.deb
-Size: 501364
-MD5sum: a7cd4f7dc3f5231ef5778ffe35b73ae8
-SHA1: e7260463c605374fde575d7f1e57a6158f2ed21f
-SHA256: f17ee4b6b9341dc7a16593f0e5a6825b5b9975b6b4de17a43d4e1c3300b7279a
+Filename: ./debs/com.iosapp.kidschanger_4.1.2+rootfull_iphoneos-arm.deb
+Size: 501266
+MD5sum: 2b6554d9cab7e177d6ef25f94f354541
+SHA1: 41a64ea4271f4a8370b9dd371dea9d86ae9665f3
+SHA256: 9b88794e4a46b6890e1b0278ea87b721158d7f89a357c0ebbaed961e1a9cd343
 Section: Utilities
 Description: iOS app changer control with KidsAutov4
 Tag: role::developer compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16, compatible::ios17, compatible::ios18, compatible::ios26
@@ -106,18 +106,18 @@ Author: KidsDev91
 Name: iOS Kids Changer
 
 Package: com.iosapp.kidschanger
-Version: 4.1.1+roothide
+Version: 4.1.2+roothide
 Architecture: iphoneos-arm64e
 Maintainer: KidsDev91 <https://t.me/Life6868>
 Installed-Size: 1596
 Pre-Depends: firmware (>= 13.4), ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit
 Depends: zip, unzip, gzip, rsync, sqlite3, openssh, openssl, ldid, com.opa334.libsandy, cm90.crossoveripc, com.simpzan.jetsamctl, preferenceloader, ws.hbang.common
 Conflicts: firmware (<< 13.4), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting, com.kids.utilities
-Filename: ./debs/com.iosapp.kidschanger_4.1.1+roothide_iphoneos-arm64e.deb
-Size: 501350
-MD5sum: 9ff211fc5ea86dc358d10010c216a2fa
-SHA1: 348328a56a8c19b38d888aba6e6329e8292b1c3d
-SHA256: 2d87d1e019f1c5a01f4b89cb931ded136c738d4e82932a4460dea862a59104e7
+Filename: ./debs/com.iosapp.kidschanger_4.1.2+roothide_iphoneos-arm64e.deb
+Size: 502344
+MD5sum: b7d63a5594e5a94876799a287548a259
+SHA1: 31f5aae5d7bfedc028fc6fbb2387b861f7faea07
+SHA256: 92b4c6f8e8e173d5e23b06127eff151b64df360abe45be02af88db91e4497285
 Section: Utilities
 Description: iOS app changer control with KidsAutov4
 Tag: role::developer compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16, compatible::ios17, compatible::ios18, compatible::ios26
@@ -125,18 +125,18 @@ Author: KidsDev91
 Name: iOS Kids Changer
 
 Package: com.iosapp.kidschanger
-Version: 4.1.1+rootless
+Version: 4.1.2+rootless
 Architecture: iphoneos-arm64
 Maintainer: KidsDev91 <https://t.me/Life6868>
 Installed-Size: 1596
 Pre-Depends: firmware (>= 13.4), ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit
 Depends: zip, unzip, gzip, rsync, sqlite3, openssh, openssl, ldid, com.opa334.libsandy, cm90.crossoveripc, com.simpzan.jetsamctl, preferenceloader, ws.hbang.common
 Conflicts: firmware (<< 13.4), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting, com.kids.utilities
-Filename: ./debs/com.iosapp.kidschanger_4.1.1+rootless_iphoneos-arm64.deb
-Size: 503540
-MD5sum: 0a6f985b877c2a318495a498cc262978
-SHA1: 5ac25cc4711945f187bb1ce558f7e92bb0d93df5
-SHA256: 7b41ea7eaaa556c38cc4b97d1fa6e2ae53e9190b08baedc7220c88ab781548bd
+Filename: ./debs/com.iosapp.kidschanger_4.1.2+rootless_iphoneos-arm64.deb
+Size: 502906
+MD5sum: e799fe38d33c783ced4a8412cb37bd5f
+SHA1: 197df8e3644a30a9bbb405cd58c364a0a882e85a
+SHA256: 0075739411f4104f7a7097ffc365b5660080d8564e3e6c6cc884538b4fd8589c
 Section: Utilities
 Description: iOS app changer control with KidsAutov4
 Tag: role::developer compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16, compatible::ios17, compatible::ios18, compatible::ios26
