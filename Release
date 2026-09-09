@@ -6,18 +6,18 @@ Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: KidsDev Repository
-Date: Wed, 09 Sep 2026 04:18:40 +0000
+Date: Wed, 09 Sep 2026 04:21:48 +0000
 
 MD5Sum:
- 2a8bc6be5c0124840abfdc150b1f38a3 32386 Packages
- ada64bf4ee67f068490e861fca5bf3bd 8022 Packages.gz
- 016148326b050358204d88ede769e156 7750 Packages.bz2
- b98b5bd3b56c30b3041bcbb277d1ec52 7300 Packages.xz
- e22e1be71e3c0d87d1dbf0b917ade701 7247 Packages.lzma
+ b77e6ade11ca6d141f91e4f57f4f65a8 30387 Packages
+ 4c3164d32587b3434e196c3c9a98dce5 7577 Packages.gz
+ 24394fe1b83632f068fbc3d9a42a477f 7363 Packages.bz2
+ 738ff3a05608af1c83bd157611bf9f60 6908 Packages.xz
+ d484676029f36f2a51914f8eb2b87dc9 6853 Packages.lzma
 
 SHA256:
- cf8e2ab40dc038674003d4e9ccba6981c915ff139f4508eebe1dfb8351364761 32386 Packages
- 57dc94d367fdba886ec81c6dd965b0fdc4b3e75fa76517ede0f60a128e99033f 8022 Packages.gz
- 74ebaa8b2cd1ea4674e269be653df1a1dcb5803cc9561b73f2220a335dad6e0c 7750 Packages.bz2
- a35d1e0d2bdce2987b4967a96a77a107f5175aaff2b82febb6f48427f8cf8538 7300 Packages.xz
- 21067699738ecd4dad012d4e0bba4ea3fd9bee473ae4a66f9d777c7f8b6b78cf 7247 Packages.lzma
+ 82a71d023c72bf5ad15bef258ffca793125961f37c966714f9e53ce07fc49cb8 30387 Packages
+ 9af43020dac3617ef15315b0254b516aa4cd27e04e7049c04b17848de7763e42 7577 Packages.gz
+ a05159fc90143c763883b5d76986e38aa41c27b794ee1afd5f40366733dbbc14 7363 Packages.bz2
+ c8ed385c6a9a311f4ff7ddad5c4ff73c467e75d3437141b03ece183bdc2881fe 6908 Packages.xz
+ d482372d5bfd8151cd51cf0f471916aabe696ad7fe3dd5eaa8dc2cba47c339a7 6853 Packages.lzma
