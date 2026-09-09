@@ -224,15 +224,15 @@ Depiction: https://t.me/Life6868
 Name: Kids Utilities
 
 Package: com.kidsautopro.kidsauto
-Version: 26.08.23-10+rootfull
+Version: 26.09.09-10+rootfull
 Architecture: iphoneos-arm
 Maintainer: Dev by Cường Trần
-Installed-Size: 12160
-Filename: ./debs/Public_KidsAutov4_26.08.23-10+rootfull_iphoneos-arm.deb
-Size: 2167702
-MD5sum: f7b40cfccddc566188aae8c6646b2ebd
-SHA1: 67d67ad036a85c50a5d30fa6e107cb850f64fa6d
-SHA256: 5d76fbcda452b4f22862ae8259fc2f2040cd498ba4b026b14ec6864367842f30
+Installed-Size: 12260
+Filename: ./debs/Public_KidsAutov4_26.09.09-10+rootfull_iphoneos-arm.deb
+Size: 2184128
+MD5sum: 37232001fe44cf0699757b02e475b6d9
+SHA1: a6fb750670e1adbdf359147d8aa02af75e6c639f
+SHA256: e7bda656b7f9c9bda62aa359a98b74fcaf913d7273e56be9d2985f612b95a3b2
 Section: Tweaks
 Description: KidsAuto Pro iOS, Support from version 12.x - 16.x
 Tag: role::hacker, purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16
@@ -240,15 +240,15 @@ Author: KidsAuto - Cường Trần
 Name: KidsAuto v4
 
 Package: com.kidsautopro.kidsauto
-Version: 26.08.23-10+roothide
+Version: 26.09.09-10+roothide
 Architecture: iphoneos-arm64e
 Maintainer: Dev by Cường Trần
-Installed-Size: 12112
-Filename: ./debs/Public_KidsAutov4_26.08.23-10+roothide_iphoneos-arm64e.deb
-Size: 2152904
-MD5sum: 98887f956296e3404895dd9cde361a4e
-SHA1: 8ed04540e56921a5a51c46a1a1a649320900d13e
-SHA256: 9c96a7120b925467678889a6ee42aa31b19563d58422f4ec51090f93d3e51f76
+Installed-Size: 12240
+Filename: ./debs/Public_KidsAutov4_26.09.09-10+roothide_iphoneos-arm64e.deb
+Size: 2172174
+MD5sum: f361d17ded8d09ec681768b91cfcdfb7
+SHA1: c6dd8fe7a455dc156a49f71fb3f0c22f8acc5bc9
+SHA256: 22dece69ca1080b5412a4061b96f4529126591cb0c84d43a397955fc97f1b8d3
 Section: Tweaks
 Description: KidsAuto Pro iOS, Support from version 12.x - 16.x
 Tag: role::hacker, purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16
@@ -256,15 +256,15 @@ Author: KidsAuto - Cường Trần
 Name: KidsAuto v4
 
 Package: com.kidsautopro.kidsauto
-Version: 26.08.23-10+rootless
+Version: 26.09.09-10+rootless
 Architecture: iphoneos-arm64
 Maintainer: Dev by Cường Trần
-Installed-Size: 12116
-Filename: ./debs/Public_KidsAutov4_26.08.23-10+rootless_iphoneos-arm64.deb
-Size: 2166782
-MD5sum: 3fdeaa602db331c765f9cb40490e7be7
-SHA1: 3fcf3fb9805efede4f8fd2994dcecbd9aba02da1
-SHA256: 28a98531a925f9cc123842e7ec03aa1d8f07f51628c76094a09928606965adc3
+Installed-Size: 12296
+Filename: ./debs/Public_KidsAutov4_26.09.09-10+rootless_iphoneos-arm64.deb
+Size: 2194190
+MD5sum: 0f88f5fc0037e6b1ede86ead8e9e6d0b
+SHA1: 6c54d34bcb536d232408f1173b26a1d2b8e02d14
+SHA256: 36bcef483aeef22b3f67b7d8dae23360986118b16e98dc820d87665223d78433
 Section: Tweaks
 Description: KidsAuto Pro iOS, Support from version 12.x - 16.x
 Tag: role::hacker, purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16
