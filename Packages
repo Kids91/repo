@@ -144,18 +144,18 @@ Author: KidsDev91
 Name: iOS Kids Changer
 
 Package: com.iosapp.kidschanger
-Version: 4.1.6+roothide
+Version: 4.1.7+roothide
 Architecture: iphoneos-arm64e
 Maintainer: KidsDev91 <https://t.me/Life6868>
 Installed-Size: 1844
 Pre-Depends: firmware (>= 13.4), ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit
 Depends: zip, unzip, gzip, rsync, sqlite3, openssh, openssl, ldid, com.opa334.libsandy, cm90.crossoveripc, com.simpzan.jetsamctl, preferenceloader, ws.hbang.common
 Conflicts: firmware (<< 13.4), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting, com.kids.utilities
-Filename: ./debs/iOSKidsChanger_4.1.6+roothide_iphoneos-arm64e.deb
-Size: 528118
-MD5sum: 55dd9070ee3aee894909c45085e21a3f
-SHA1: 04147255846b812ab72fe7b9a2e0f97fb749c80f
-SHA256: f5b5709b2488740d8e6a35bb012d9b9ef9e60a9b3c4dd36a913383f9a6aa249e
+Filename: ./debs/iOSKidsChanger_4.1.7+roothide_iphoneos-arm64e.deb
+Size: 526684
+MD5sum: c22a563dfd19a620cb33c889355d17b8
+SHA1: f959841c55fb2d4da48fe3b330eb65d7519c98bb
+SHA256: 28ee18042bc5462a871b48af546f6d8769c25eb5e06e48a0dc52eccb2744c4cf
 Section: Utilities
 Description: iOS app changer control with KidsAutov4
 Tag: role::developer compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16, compatible::ios17, compatible::ios18, compatible::ios26
@@ -163,18 +163,18 @@ Author: KidsDev91
 Name: iOS Kids Changer
 
 Package: com.iosapp.kidschanger
-Version: 4.1.6+rootless
+Version: 4.1.7+rootless
 Architecture: iphoneos-arm64
 Maintainer: KidsDev91 <https://t.me/Life6868>
 Installed-Size: 1844
 Pre-Depends: firmware (>= 13.4), ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit
 Depends: zip, unzip, gzip, rsync, sqlite3, openssh, openssl, ldid, com.opa334.libsandy, cm90.crossoveripc, com.simpzan.jetsamctl, preferenceloader, ws.hbang.common
 Conflicts: firmware (<< 13.4), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting, com.kids.utilities
-Filename: ./debs/iOSKidsChanger_4.1.6+rootless_iphoneos-arm64.deb
-Size: 528214
-MD5sum: 6eef07db542bfa3780b52c3b96ccc26e
-SHA1: 4f809ba144544ee7c340c02e8d6ff720471b4fff
-SHA256: 09a46f56cc616ee804f5de23ba0100cc9a12ad620724a00f5d2c28718444c7be
+Filename: ./debs/iOSKidsChanger_4.1.7+rootless_iphoneos-arm64.deb
+Size: 528414
+MD5sum: cf752d0f2242b77af40b77187b380a79
+SHA1: eaa42d059c6299acf72b25b257f2bc042bf43fbb
+SHA256: 09a78973107d42ccdf45645c786d9e918a2389b88bce23416d9229758772ff82
 Section: Utilities
 Description: iOS app changer control with KidsAutov4
 Tag: role::developer compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16, compatible::ios17, compatible::ios18, compatible::ios26
