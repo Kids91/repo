@@ -143,6 +143,44 @@ Tag: role::developer compatible::ios13, compatible::ios14, compatible::ios15, co
 Author: KidsDev91
 Name: iOS Kids Changer
 
+Package: com.iosapp.kidschanger
+Version: 4.1.6+roothide
+Architecture: iphoneos-arm64e
+Maintainer: KidsDev91 <https://t.me/Life6868>
+Installed-Size: 1844
+Pre-Depends: firmware (>= 13.4), ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit
+Depends: zip, unzip, gzip, rsync, sqlite3, openssh, openssl, ldid, com.opa334.libsandy, cm90.crossoveripc, com.simpzan.jetsamctl, preferenceloader, ws.hbang.common
+Conflicts: firmware (<< 13.4), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting, com.kids.utilities
+Filename: ./debs/iOSKidsChanger_4.1.6+roothide_iphoneos-arm64e.deb
+Size: 528118
+MD5sum: 55dd9070ee3aee894909c45085e21a3f
+SHA1: 04147255846b812ab72fe7b9a2e0f97fb749c80f
+SHA256: f5b5709b2488740d8e6a35bb012d9b9ef9e60a9b3c4dd36a913383f9a6aa249e
+Section: Utilities
+Description: iOS app changer control with KidsAutov4
+Tag: role::developer compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16, compatible::ios17, compatible::ios18, compatible::ios26
+Author: KidsDev91
+Name: iOS Kids Changer
+
+Package: com.iosapp.kidschanger
+Version: 4.1.6+rootless
+Architecture: iphoneos-arm64
+Maintainer: KidsDev91 <https://t.me/Life6868>
+Installed-Size: 1844
+Pre-Depends: firmware (>= 13.4), ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit
+Depends: zip, unzip, gzip, rsync, sqlite3, openssh, openssl, ldid, com.opa334.libsandy, cm90.crossoveripc, com.simpzan.jetsamctl, preferenceloader, ws.hbang.common
+Conflicts: firmware (<< 13.4), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting, com.kids.utilities
+Filename: ./debs/iOSKidsChanger_4.1.6+rootless_iphoneos-arm64.deb
+Size: 528214
+MD5sum: 6eef07db542bfa3780b52c3b96ccc26e
+SHA1: 4f809ba144544ee7c340c02e8d6ff720471b4fff
+SHA256: 09a46f56cc616ee804f5de23ba0100cc9a12ad620724a00f5d2c28718444c7be
+Section: Utilities
+Description: iOS app changer control with KidsAutov4
+Tag: role::developer compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16, compatible::ios17, compatible::ios18, compatible::ios26
+Author: KidsDev91
+Name: iOS Kids Changer
+
 Package: com.kids.utilities
 Version: 25.06.27~checkra1n
 Architecture: iphoneos-arm
@@ -265,6 +303,54 @@ Size: 2192768
 MD5sum: 0b79faba24563bbfcdabfde0da5fc6ca
 SHA1: e8750448c5f8ac669f8d1bd9ef4292fa55a5588b
 SHA256: 462f30af68ec4a710302bdcc28a40501c6dc49c47ecaa60a23c6657cef4f5498
+Section: Tweaks
+Description: KidsAuto Pro iOS, Support from version 12.x - 16.x
+Tag: role::hacker, purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16
+Author: KidsAuto - Cường Trần
+Name: KidsAuto v4
+
+Package: com.kidsautopro.kidsauto
+Version: 26.09.24-20+rootfull
+Architecture: iphoneos-arm
+Maintainer: Dev by Cường Trần
+Installed-Size: 12340
+Filename: ./debs/Public_KidsAutov4_26.09.24-20+rootfull_iphoneos-arm.deb
+Size: 2206282
+MD5sum: adc3a3c56d0b0e09010e5839da6296de
+SHA1: 215c5c819b8d890b557777c5e885af4db4f6459f
+SHA256: 7673203b27c1eb80348c8c937dae69fe6d0f68a72068c83ef9ffcef785535127
+Section: Tweaks
+Description: KidsAuto Pro iOS, Support from version 12.x - 16.x
+Tag: role::hacker, purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16
+Author: KidsAuto - Cường Trần
+Name: KidsAuto v4
+
+Package: com.kidsautopro.kidsauto
+Version: 26.09.24-20+roothide
+Architecture: iphoneos-arm64e
+Maintainer: Dev by Cường Trần
+Installed-Size: 12288
+Filename: ./debs/Public_KidsAutov4_26.09.24-20+roothide_iphoneos-arm64e.deb
+Size: 2192264
+MD5sum: f37b32f8f945c8fdd860e127d864a9d9
+SHA1: 249863fae17fe2dd229d2af0d2b12c90cfdb7ebe
+SHA256: d69fc506a527a0d1dfbbe4e626b8c9b645bc65316fe768670e32bd0bec47ac09
+Section: Tweaks
+Description: KidsAuto Pro iOS, Support from version 12.x - 16.x
+Tag: role::hacker, purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16
+Author: KidsAuto - Cường Trần
+Name: KidsAuto v4
+
+Package: com.kidsautopro.kidsauto
+Version: 26.09.24-20+rootless
+Architecture: iphoneos-arm64
+Maintainer: Dev by Cường Trần
+Installed-Size: 12296
+Filename: ./debs/Public_KidsAutov4_26.09.24-20+rootless_iphoneos-arm64.deb
+Size: 2213736
+MD5sum: 96184732b963735f4b6d820f6328b695
+SHA1: 6fce7f69a84d1e61a546fbc50a6d1303359b4f1a
+SHA256: 1a73d0a249ae3b9c58ea44dd2482b49f768f54ffa6ac9f83c2848f1a44ba24b7
 Section: Tweaks
 Description: KidsAuto Pro iOS, Support from version 12.x - 16.x
 Tag: role::hacker, purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16
