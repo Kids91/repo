@@ -310,15 +310,15 @@ Author: KidsAuto - Cường Trần
 Name: KidsAuto v4
 
 Package: com.kidsautopro.kidsauto
-Version: 26.10.01-10+roothide
+Version: 26.10.03-10+roothide
 Architecture: iphoneos-arm64e
 Maintainer: Dev by Cường Trần
-Installed-Size: 12360
-Filename: ./debs/PUBLIC_KidsAutov4_26.10.01-10+roothide_iphoneos-arm64e.deb
-Size: 2230294
-MD5sum: 06bb379065d1c01cb9d3744ef309b348
-SHA1: 4c47880017532a424f62629149e061684f572194
-SHA256: bfdf1cca0e927101a44dad46f084b0ae771b9459ad6e208e63047e95a0b78de8
+Installed-Size: 12392
+Filename: ./debs/Public_KidsAutov4_26.10.03-10+roothide_iphoneos-arm64e.deb
+Size: 2221754
+MD5sum: b182022921a4638ae70f55ff5732e1e8
+SHA1: cea85ac145a03ca532ecaad0a33d18ca83b08cfb
+SHA256: b1bacb9abe8a73f0bd4c50ffa7f32a0920b7b45f45960cae77d83e2cb1eccb76
 Section: Tweaks
 Description: KidsAuto Pro iOS, Support from version 12.x - 26.x
 Tag: role::hacker, purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16, compatible::ios17, compatible::ios18, compatible::ios26
@@ -326,15 +326,15 @@ Author: KidsAuto - Cường Trần
 Name: KidsAuto v4
 
 Package: com.kidsautopro.kidsauto
-Version: 26.10.01-10+rootless
+Version: 26.10.03-10+rootless
 Architecture: iphoneos-arm64
 Maintainer: Dev by Cường Trần
 Installed-Size: 12412
-Filename: ./debs/PUBLIC_KidsAutov4_26.10.01-10+rootless_iphoneos-arm64.deb
-Size: 2230028
-MD5sum: 3195ba93a77d32ef3c27b8ac63aaa55b
-SHA1: ecb883615978fc6bfab414583dc3405967520ce1
-SHA256: 4b7772ca2aadf7660d29aba7975ae3381b4b56cff13c75303c54c85835fd29e8
+Filename: ./debs/Public_KidsAutov4_26.10.03-10+rootless_iphoneos-arm64.deb
+Size: 2235346
+MD5sum: 20365bd7ca2b605523110059bb64de6a
+SHA1: ed44a5908504e01ced2f27ae453f34d50f566453
+SHA256: e9ee514c4313964553b6d68d83514b0d0f39798a20e0cbc3f3104b83e0663d0e
 Section: Tweaks
 Description: KidsAuto Pro iOS, Support from version 12.x - 26.x
 Tag: role::hacker, purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16, compatible::ios17, compatible::ios18, compatible::ios26
